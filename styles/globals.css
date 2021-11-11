@@ -1,16 +1,13 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700,900,900&display=swap";
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+@import "../public/css/bootstrap.min";
+@import "../public/css/animate.min.css";
+@import "../public/css/owl.carousel.min";
+@import "../public/css/owl.theme.default.min";
+@import "../public/css/style";
+@import "../public/demo//style";
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.owl-carousel {
+    display: block !important;
 }
