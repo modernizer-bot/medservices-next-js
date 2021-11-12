@@ -5,8 +5,12 @@
 @import "../public/css/animate.min.css";
 @import "../public/css/owl.carousel.min";
 @import "../public/css/owl.theme.default.min";
+@import "../public/css/flaticon";
+@import "../public/css/magnific-popup";
+@import "../public/css/timetable";
+@import "../public/css/menu";
 @import "../public/css/style";
-@import "../public/demo//style";
+@import "../public/demo/style";
 
 .owl-carousel {
     display: block !important;
