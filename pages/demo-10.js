@@ -51,13 +51,13 @@ const demo10 = () => {
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>{" "}
+                                    </div>
                                     {/* End row */}
-                                </div>{" "}
+                                </div>
                                 {/* End container */}
-                            </div>{" "}
+                            </div>
                             {/* End Image Caption */}
-                        </li>{" "}
+                        </li>
                         {/* END SLIDE #1 */}
                         {/* SLIDE #2 */}
                         <li id="slide-2">
@@ -112,18 +112,18 @@ const demo10 = () => {
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>{" "}
+                                    </div>
                                     {/* End row */}
-                                </div>{" "}
+                                </div>
                                 {/* End container */}
-                            </div>{" "}
+                            </div>
                             {/* End Image Caption */}
-                        </li>{" "}
+                        </li>
                         {/* END SLIDE #2 */}
                     </ul>
-                </div>{" "}
+                </div>
                 {/* END SLIDER */}
-            </section>{" "}
+            </section>
             {/* END HERO-10 */}
             {/* ABOUT-3
 			============================================= */}
@@ -195,12 +195,12 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* End row */}
-                    </div>{" "}
+                    </div>
                     {/* End container */}
                 </div>
-            </section>{" "}
+            </section>
             {/* END ABOUT-3 */}
             {/* ABOUT-6
 			============================================= */}
@@ -248,7 +248,7 @@ const demo10 = () => {
                                     />
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END TEXT BLOCK */}
                         {/* IMAGE BLOCK */}
                         <div className="col-lg-6">
@@ -263,11 +263,11 @@ const demo10 = () => {
                                 />
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END ABOUT-6 */}
             {/* STATISTIC-1
 			============================================= */}
@@ -337,11 +337,11 @@ const demo10 = () => {
                                 <p className="txt-400">Local Partners</p>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </div>{" "}
+            </div>
             {/* END STATISTIC-1 */}
             {/* SERVICES-4
 			============================================= */}
@@ -475,11 +475,11 @@ const demo10 = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END SERVICES-4 */}
             {/* INFO-2
 			============================================= */}
@@ -576,10 +576,10 @@ const demo10 = () => {
                                             </p>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* End Options List */}
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END TEXT BLOCK */}
                         {/* IMAGE BLOCK */}
                         <div className="col-lg-6">
@@ -594,11 +594,11 @@ const demo10 = () => {
                                 />
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END INFO-2 */}
             {/* DOCTORS-1
 			============================================= */}
@@ -622,7 +622,7 @@ const demo10 = () => {
                                 porta feugiat
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END SECTION TITLE */}
                     <div className="row">
                         {/* DOCTOR #1 */}
@@ -663,7 +663,7 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #1 */}
                         {/* DOCTOR #2 */}
                         <div className="col-md-6 col-lg-3">
@@ -703,7 +703,7 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #2 */}
                         {/* DOCTOR #3 */}
                         <div className="col-md-6 col-lg-3">
@@ -743,7 +743,7 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #3 */}
                         {/* DOCTOR #4 */}
                         <div className="col-md-6 col-lg-3">
@@ -781,9 +781,9 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #4 */}
-                    </div>{" "}
+                    </div>
                     {/* End row */}
                     {/* ALL DOCTORS BUTTON */}
                     <div className="row">
@@ -798,9 +798,9 @@ const demo10 = () => {
                             </div>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END DOCTORS-1 */}
             {/* INFO-9
 			============================================= */}
@@ -869,9 +869,9 @@ const demo10 = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* END TEXT BLOCK */}
                 {/* INFO-9 IMAGE */}
                 <div
@@ -880,7 +880,7 @@ const demo10 = () => {
                         backgroundImage: "url(./images/optometry-bg.jpg)",
                     }}
                 />
-            </section>{" "}
+            </section>
             {/* END INFO-9 */}
             {/* TABS-1
 			============================================= */}
@@ -955,7 +955,7 @@ const demo10 = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </div>{" "}
+                            </div>
                             {/* END TABS NAVIGATION */}
                             {/* TABS CONTENT */}
                             <div className="tab-content" id="pills-tabContent">
@@ -1073,7 +1073,7 @@ const demo10 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1083,10 +1083,10 @@ const demo10 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-1 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-1 CONTENT */}
                                 {/* TAB-2 CONTENT */}
                                 <div
@@ -1202,7 +1202,7 @@ const demo10 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1212,10 +1212,10 @@ const demo10 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-2 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-2 CONTENT */}
                                 {/* TAB-3 CONTENT */}
                                 <div
@@ -1331,7 +1331,7 @@ const demo10 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1341,10 +1341,10 @@ const demo10 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-3 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-3 CONTENT */}
                                 {/* TAB-4 CONTENT */}
                                 <div
@@ -1460,7 +1460,7 @@ const demo10 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1470,19 +1470,19 @@ const demo10 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-4 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-4 CONTENT */}
-                            </div>{" "}
+                            </div>
                             {/* END TABS CONTENT */}
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END TABS-1 */}
             {/* TESTIMONIALS-2
 			============================================= */}
@@ -1506,7 +1506,7 @@ const demo10 = () => {
                                 porta feugiat
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END SECTION TITLE */}
                     {/* TESTIMONIALS CONTENT */}
                     <div className="row">
@@ -1544,7 +1544,7 @@ const demo10 = () => {
                                             <span>Programmer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/*END  TESTIMONIAL #1 */}
                                 {/* TESTIMONIAL #2 */}
                                 <div className="review-2">
@@ -1578,7 +1578,7 @@ const demo10 = () => {
                                             <span>Project Manager</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #2 */}
                                 {/* TESTIMONIAL #3 */}
                                 <div className="review-2">
@@ -1609,7 +1609,7 @@ const demo10 = () => {
                                             <span>Photographer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #3 */}
                                 {/* TESTIMONIAL #4 */}
                                 <div className="review-2">
@@ -1642,7 +1642,7 @@ const demo10 = () => {
                                             <span>Graphic Designer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #4 */}
                                 {/* TESTIMONIAL #5 */}
                                 <div className="review-2">
@@ -1676,7 +1676,7 @@ const demo10 = () => {
                                             <span>Senior UX/UI Designer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #5 */}
                                 {/* TESTIMONIAL #6 */}
                                 <div className="review-2">
@@ -1710,7 +1710,7 @@ const demo10 = () => {
                                             <span>Internet Surfer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #6 */}
                                 {/* TESTIMONIAL #7 */}
                                 <div className="review-2">
@@ -1741,7 +1741,7 @@ const demo10 = () => {
                                             <span>SEO Manager</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #7 */}
                                 {/* TESTIMONIAL #8 */}
                                 <div className="review-2">
@@ -1772,7 +1772,7 @@ const demo10 = () => {
                                             <span>Patient</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #8 */}
                                 {/* TESTIMONIAL #9*/}
                                 <div className="review-2">
@@ -1805,15 +1805,15 @@ const demo10 = () => {
                                             <span>Housewife</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #9 */}
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END TESTIMONIALS CONTENT */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END TESTIMONIALS-2 */}
             {/* BLOG-1
 			============================================= */}
@@ -1861,7 +1861,7 @@ const demo10 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        May 03, 2019 by{" "}
+                                        May 03, 2019 by
                                         <span>Dr.Jeremy Smith</span>
                                     </span>
                                     {/* Post Text */}
@@ -1873,7 +1873,7 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #1 */}
                         {/* BLOG POST #2 */}
                         <div className="col-lg-4">
@@ -1899,7 +1899,7 @@ const demo10 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        Apr 28, 2019 by{" "}
+                                        Apr 28, 2019 by
                                         <span>Dr.Jonathan Barnes</span>
                                     </span>
                                     {/* Post Text */}
@@ -1911,7 +1911,7 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #2 */}
                         {/* BLOG POST #3 */}
                         <div className="col-lg-4">
@@ -1937,7 +1937,7 @@ const demo10 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        Apr 17, 2019 by{" "}
+                                        Apr 17, 2019 by
                                         <span>Dr.Megan Coleman</span>
                                     </span>
                                     {/* Post Text */}
@@ -1949,13 +1949,13 @@ const demo10 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #3 */}
-                    </div>{" "}
+                    </div>
                     {/* END BLOG POSTS HOLDER */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END BLOG-1 */}
             {/* BANNER-2
 			============================================= */}
@@ -2004,15 +2004,15 @@ const demo10 = () => {
                                         View Our Doctors
                                     </a>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END BANNER TEXT */}
-                        </div>{" "}
+                        </div>
                         {/* End row */}
-                    </div>{" "}
+                    </div>
                     {/* End container */}
-                </div>{" "}
+                </div>
                 {/* End Inner Background */}
-            </section>{" "}
+            </section>
             {/* END BANNER-2 */}
             {/* FOOTER-3
 			============================================= */}

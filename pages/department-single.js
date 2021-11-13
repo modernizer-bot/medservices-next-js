@@ -46,7 +46,7 @@ const departmentSingle = () => {
                     {/* End row */}
                 </div>{" "}
                 {/* End container */}
-            </div>{" "}
+            </div>
             {/* END BREADCRUMB */}
             {/* DEPARTMENT DETAILS
 			============================================= */}
@@ -616,7 +616,7 @@ const departmentSingle = () => {
                     {/* End row */}
                 </div>{" "}
                 {/* End container */}
-            </div>{" "}
+            </div>
             {/* END DEPARTMENT DETAILS */}
             {/* DOCTORS-1
 			============================================= */}
@@ -818,7 +818,7 @@ const departmentSingle = () => {
                     </div>
                 </div>{" "}
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END DOCTORS-1 */}
             {/* ABOUT-5
 			============================================= */}
