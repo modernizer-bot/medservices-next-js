@@ -381,7 +381,7 @@ const demo7 = () => {
                     {/* End row */}
                 </div>{" "}
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END ABOUT-5 */}
             {/* SERVICES-4
 			============================================= */}

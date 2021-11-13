@@ -1,6 +1,7 @@
 import React from "react";
-import Header1 from "../src/layout/Header/Header1";
+import Banner5 from "../src/components/Common/Banner-5;";
 import Footer4 from "../src/layout/Footer/Footer4";
+import Header1 from "../src/layout/Header/Header1";
 
 const pricing1 = () => {
     return (
@@ -656,46 +657,11 @@ const pricing1 = () => {
             {/* END TESTIMONIALS-2 */}
             {/* BANNER-5
 			============================================= */}
-            <section id="banner-5" className="pt-100 banner-section division">
-                <div className="container">
-                    {/* SECTION TITLE */}
-                    <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title">
-                            {/* Title 	*/}
-                            <h3 className="h3-md steelblue-color">
-                                Certified and Experienced Doctors
-                            </h3>
-                            {/* Text */}
-                            <p>
-                                Aliquam a augue suscipit, luctus neque purus
-                                ipsum neque dolor primis libero at tempus,
-                                blandit posuere ligula varius congue cursus
-                                porta feugiat
-                            </p>
-                        </div>
-                    </div>
-                    {/* BANNER IMAGE */}
-                    <div className="row">
-                        <div className="col-lg-10 offset-lg-1">
-                            <div
-                                className="banner-5-img wow fadeInUp"
-                                data-wow-delay="0.4s"
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src="images/image-07.png"
-                                    alt="banner-image"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>{" "}
-                {/* End container */}
-            </section>{" "}
+            <Banner5 />
             {/* END BANNER-5 */}
             {/* FOOTER-1
 			============================================= */}
-           <Footer4 />
+            <Footer4 />
             {/* END FOOTER-1 */}
         </div>
     );
