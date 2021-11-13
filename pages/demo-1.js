@@ -1,4 +1,9 @@
 import React from "react";
+import About5 from "../src/components/Common/About-5";
+import Info2 from "../src/components/Common/Info-2";
+import Info6 from "../src/components/Common/Info-6";
+import Services3 from "../src/components/Common/Services-3";
+import Demo1Hero1 from "../src/components/Demo-1/Demo1Hero-1";
 import Footer2 from "../src/layout/Footer/Footer2";
 import Header3 from "../src/layout/Header/Header3";
 
@@ -11,52 +16,7 @@ const demo1 = () => {
             {/* END HEADER */}
             {/* HERO-1
 			============================================= */}
-            <section id="hero-1" className="bg-fixed hero-section division">
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        {/* HERO TEXT */}
-                        <div className="col-md-8 col-lg-7 col-xl-6">
-                            <div className="hero-txt mb-40">
-                                {/* Title */}
-                                <h5 className="steelblue-color">
-                                    Welcome To Our Clinic
-                                </h5>
-                                <h2 className="steelblue-color">
-                                    Take Care of Your Health
-                                </h2>
-                                {/* Text */}
-                                <p className="p-md">
-                                    Feugiat primis ligula risus auctor egestas
-                                    augue mauri viverra tortor in iaculis
-                                    placerat eugiat mauris ipsum in viverra
-                                    tortor and gravida purus pretium lorem
-                                    primis in orci integer mollis
-                                </p>
-                                {/* Button */}
-                                <a
-                                    href="about-us.html"
-                                    className="btn btn-blue blue-hover"
-                                >
-                                    More About Clinic
-                                </a>
-                            </div>
-                        </div>{" "}
-                        {/* END HERO TEXT */}
-                        {/* HERO IMAGE */}
-                        <div className="col-md-4 col-lg-5 col-xl-6">
-                            <div className="hero-1-img text-center">
-                                <img
-                                    className="img-fluid"
-                                    src="images/hero-1-img.png"
-                                    alt="hero-image"
-                                />
-                            </div>
-                        </div>
-                    </div>{" "}
-                    {/* End row */}
-                </div>{" "}
-                {/* End container */}
-            </section>{" "}
+            <Demo1Hero1 />
             {/* END HERO-1 */}
             {/* ABOUT-1
 			============================================= */}
@@ -149,7 +109,7 @@ const demo1 = () => {
                                 <h5 className="h5-md">Emergency Cases</h5>
                                 {/* Text */}
                                 <h5 className="h5-lg emergency-call">
-                                    <i className="fas fa-phone" />{" "}
+                                    <i className="fas fa-phone" />
                                     1-800-123-4560
                                 </h5>
                                 <p className="mt-20">
@@ -159,447 +119,27 @@ const demo1 = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END ABOUT-1 */}
             {/* ABOUT-5
 			============================================= */}
-            <section id="about-5" className="pt-100 about-section division">
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        {/* IMAGE BLOCK */}
-                        <div className="col-lg-6">
-                            <div
-                                className="about-img text-center wow fadeInUp"
-                                data-wow-delay="0.6s"
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src="images/image-03.png"
-                                    alt="about-image"
-                                />
-                            </div>
-                        </div>
-                        {/* TEXT BLOCK */}
-                        <div className="col-lg-6">
-                            <div
-                                className="txt-block pc-30 wow fadeInUp"
-                                data-wow-delay="0.4s"
-                            >
-                                {/* Section ID */}
-                                <span className="section-id blue-color">
-                                    Welcome to MedService
-                                </span>
-                                {/* Title */}
-                                <h3 className="h3-md steelblue-color">
-                                    Complete Medical Solutions in One Place
-                                </h3>
-                                {/* Text */}
-                                <p>
-                                    Porta semper lacus cursus, feugiat primis
-                                    ultrice in ligula risus auctor tempus
-                                    feugiat dolor lacinia cubilia curae integer
-                                    congue leo metus, eu mollislorem primis in
-                                    orci integer metus mollis faucibus. An enim
-                                    nullam tempor sapien gravida donec pretium
-                                    and ipsum porta justo integer at velna vitae
-                                    auctor integer congue
-                                </p>
-                                {/* Singnature */}
-                                <div className="singnature mt-35">
-                                    {/* Text */}
-                                    <p className="p-small mb-15">
-                                        Randon Pexon, Head of Clinic
-                                    </p>
-                                    {/* Singnature Image */}
-                                    {/* Recommended sizes for Retina Ready displays is 400x68px; */}
-                                    <img
-                                        className="img-fluid"
-                                        src="images/signature.png"
-                                        width={200}
-                                        height={34}
-                                        alt="signature-image"
-                                    />
-                                </div>
-                            </div>
-                        </div>{" "}
-                        {/* END TEXT BLOCK */}
-                    </div>{" "}
-                    {/* End row */}
-                </div>{" "}
-                {/* End container */}
-            </section>{" "}
+            <About5 />
             {/* END ABOUT-5 */}
             {/* SERVICES-3
 			============================================= */}
-            <section
-                id="services-3"
-                className="bg-lightgrey wide-100 services-section division"
-            >
-                <div className="container">
-                    {/* SECTION TITLE */}
-                    <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title">
-                            {/* Title 	*/}
-                            <h3 className="h3-md steelblue-color">
-                                Total Health Care Solutions
-                            </h3>
-                            {/* Text */}
-                            <p>
-                                Aliquam a augue suscipit, luctus neque purus
-                                ipsum neque dolor primis libero at tempus,
-                                blandit posuere ligula varius congue cursus
-                                porta feugiat
-                            </p>
-                        </div>
-                    </div>
-                    {/* SERVICES CONTENT */}
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="owl-carousel owl-theme services-holder">
-                                {/* SERVICE BOX #1 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-083-stethoscope" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Pediatrics
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #2 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-047-head" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Neurology
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #3 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-015-blood-donation-1" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Haematology
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #4 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-048-lungs" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        X-Ray Diagnostic
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #5 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-060-cardiogram-4" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Cardiology
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #6 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-031-scanner" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        MRI
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #7 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-076-microscope" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Laboratory Services
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                                {/* SERVICE BOX #8 */}
-                                <div className="sbox-3 icon-sm">
-                                    {/* Icon */}
-                                    <div className="sbox-3-icon">
-                                        <span className="flaticon-068-ambulance-3" />
-                                    </div>
-                                    {/* Title */}
-                                    <h5 className="h5-xs steelblue-color">
-                                        Emergency Help
-                                    </h5>
-                                    {/* Text */}
-                                    <p>
-                                        Porta semper lacus cursus, feugiat
-                                        primis ultrice in ligula risus auctor
-                                        tempus feugiat dolor lacinia cubilia
-                                        curae integer congue leo metus
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>{" "}
-                    {/* END SERVICES CONTENT */}
-                </div>{" "}
-                {/* End container */}
-            </section>{" "}
+            <Services3 />
             {/* END SERVICES-3 */}
             {/* INFO-2
 			============================================= */}
-            <section id="info-2" className="wide-60 info-section division">
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        {/* TEXT BLOCK */}
-                        <div className="col-lg-6">
-                            <div
-                                className="txt-block pc-30 mb-40 wow fadeInUp"
-                                data-wow-delay="0.4s"
-                            >
-                                {/* Section ID */}
-                                <span className="section-id blue-color">
-                                    Best Practices
-                                </span>
-                                {/* Title */}
-                                <h3 className="h3-md steelblue-color">
-                                    Clinic with Innovative Approach to Treatment
-                                </h3>
-                                {/* Text */}
-                                <p className="mb-30">
-                                    An enim nullam tempor sapien gravida donec
-                                    enim ipsum blandit porta justo integer odio
-                                    velna vitae auctor integer congue magna at
-                                    pretium purus pretium ligula rutrum itae
-                                    laoreet augue posuere and curae integer
-                                    congue leo metus mollis primis and mauris
-                                </p>
-                                {/* Options List */}
-                                <div className="row">
-                                    <div className="col-xl-6">
-                                        {/* Option #1 */}
-                                        <div className="box-list m-top-15">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                Nemo ipsam egestas volute and
-                                                turpis dolores quaerat
-                                            </p>
-                                        </div>
-                                        {/* Option #2 */}
-                                        <div className="box-list">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                Magna luctus tempor
-                                            </p>
-                                        </div>
-                                        {/* Option #3 */}
-                                        <div className="box-list">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                An enim nullam tempor at pretium
-                                                purus blandit
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6">
-                                        {/* Option #4 */}
-                                        <div className="box-list">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                Magna luctus tempor blandit a
-                                                vitae suscipit mollis
-                                            </p>
-                                        </div>
-                                        {/* Option #5 */}
-                                        <div className="box-list m-top-15">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                Nemo ipsam egestas volute turpis
-                                                dolores quaerat
-                                            </p>
-                                        </div>
-                                        {/* Option #6 */}
-                                        <div className="box-list">
-                                            <div className="box-list-icon blue-color">
-                                                <i className="fas fa-angle-double-right" />
-                                            </div>
-                                            <p className="p-sm">
-                                                An enim nullam tempor
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{" "}
-                                {/* End Options List */}
-                            </div>
-                        </div>{" "}
-                        {/* END TEXT BLOCK */}
-                        {/* IMAGE BLOCK */}
-                        <div className="col-lg-6">
-                            <div
-                                className="info-2-img wow fadeInUp"
-                                data-wow-delay="0.6s"
-                            >
-                                <img
-                                    className="img-fluid"
-                                    src="images/image-04.png"
-                                    alt="info-image"
-                                />
-                            </div>
-                        </div>
-                    </div>{" "}
-                    {/* End row */}
-                </div>{" "}
-                {/* End container */}
-            </section>{" "}
+            <Info2 />
             {/* END INFO-2 */}
             {/* INFO-6
 			============================================= */}
-            <section id="info-6" className="bg-blue info-section division">
-                {/* TEXT BLOCK */}
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        <div className="col-lg-6 offset-lg-6">
-                            <div
-                                className="txt-block pc-30 white-color wow fadeInUp"
-                                data-wow-delay="0.4s"
-                            >
-                                {/* Section ID */}
-                                <span className="section-id id-color">
-                                    Qualified Doctors
-                                </span>
-                                {/* Title */}
-                                <h3 className="h3-md">
-                                    Group of Certified and Experienced Doctors
-                                </h3>
-                                {/* CONTENT BOX #1 */}
-                                <div className="box-list">
-                                    <div className="box-list-icon">
-                                        <i className="fas fa-genderless" />
-                                    </div>
-                                    <p>
-                                        Maecenas gravida porttitor nunc, quis
-                                        vehicula magna luctus tempor. Quisque
-                                        vel laoreet turpis urna augue, viverra a
-                                        augue eget, dictum tempor diam pulvinar
-                                        massa purus nulla
-                                    </p>
-                                </div>
-                                {/* CONTENT BOX #2 */}
-                                <div className="box-list">
-                                    <div className="box-list-icon">
-                                        <i className="fas fa-genderless" />
-                                    </div>
-                                    <p>
-                                        Nemo ipsam egestas volute turpis dolores
-                                        ut aliquam quaerat sodales sapien undo
-                                        pretium purus feugiat dolor impedit
-                                    </p>
-                                </div>
-                                {/* CONTENT BOX #3 */}
-                                <div className="box-list">
-                                    <div className="box-list-icon">
-                                        <i className="fas fa-genderless" />
-                                    </div>
-                                    <p>
-                                        Nemo ipsam egestas volute turpis dolores
-                                        ut aliquam quaerat sodales sapien undo
-                                        pretium purus feugiat dolor impedit
-                                        magna purus pretium gravida donec ligula
-                                        massa in faucibus
-                                    </p>
-                                </div>
-                                {/* Button */}
-                                <a
-                                    href="all-doctors.html"
-                                    className="btn btn-tra-white blue-hover mt-25"
-                                >
-                                    Meet The Doctors
-                                </a>
-                            </div>
-                        </div>
-                    </div>{" "}
-                    {/* End row */}
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-                {/* INFO-6 IMAGE */}
-                <div className="info-6-img text-center" />
-            </section>{" "}
+            <Info6 />
             {/* END INFO-6 */}
             {/* VIDEO-1
 			============================================= */}
@@ -680,13 +220,13 @@ const demo1 = () => {
                                     />
                                 </a>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END VIDEO LINK */}
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END VIDEO-1 */}
             {/* TESTIMONIALS-2
 			============================================= */}
@@ -710,7 +250,7 @@ const demo1 = () => {
                                 porta feugiat
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END SECTION TITLE */}
                     {/* TESTIMONIALS CONTENT */}
                     <div className="row">
@@ -748,7 +288,7 @@ const demo1 = () => {
                                             <span>Programmer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/*END  TESTIMONIAL #1 */}
                                 {/* TESTIMONIAL #2 */}
                                 <div className="review-2">
@@ -782,7 +322,7 @@ const demo1 = () => {
                                             <span>Project Manager</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #2 */}
                                 {/* TESTIMONIAL #3 */}
                                 <div className="review-2">
@@ -813,7 +353,7 @@ const demo1 = () => {
                                             <span>Photographer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #3 */}
                                 {/* TESTIMONIAL #4 */}
                                 <div className="review-2">
@@ -846,7 +386,7 @@ const demo1 = () => {
                                             <span>Graphic Designer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #4 */}
                                 {/* TESTIMONIAL #5 */}
                                 <div className="review-2">
@@ -880,7 +420,7 @@ const demo1 = () => {
                                             <span>Senior UX/UI Designer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #5 */}
                                 {/* TESTIMONIAL #6 */}
                                 <div className="review-2">
@@ -914,7 +454,7 @@ const demo1 = () => {
                                             <span>Internet Surfer</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #6 */}
                                 {/* TESTIMONIAL #7 */}
                                 <div className="review-2">
@@ -945,7 +485,7 @@ const demo1 = () => {
                                             <span>SEO Manager</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #7 */}
                                 {/* TESTIMONIAL #8 */}
                                 <div className="review-2">
@@ -976,7 +516,7 @@ const demo1 = () => {
                                             <span>Patient</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #8 */}
                                 {/* TESTIMONIAL #9*/}
                                 <div className="review-2">
@@ -1009,15 +549,15 @@ const demo1 = () => {
                                             <span>Housewife</span>
                                         </div>
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TESTIMONIAL #9 */}
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END TESTIMONIALS CONTENT */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END TESTIMONIALS-2 */}
             {/* DOCTORS-1
 			============================================= */}
@@ -1041,7 +581,7 @@ const demo1 = () => {
                                 porta feugiat
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END SECTION TITLE */}
                     <div className="row">
                         {/* DOCTOR #1 */}
@@ -1082,7 +622,7 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #1 */}
                         {/* DOCTOR #2 */}
                         <div className="col-md-6 col-lg-3">
@@ -1122,7 +662,7 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #2 */}
                         {/* DOCTOR #3 */}
                         <div className="col-md-6 col-lg-3">
@@ -1162,7 +702,7 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #3 */}
                         {/* DOCTOR #4 */}
                         <div className="col-md-6 col-lg-3">
@@ -1202,9 +742,9 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END DOCTOR #4 */}
-                    </div>{" "}
+                    </div>
                     {/* End row */}
                     {/* ALL DOCTORS BUTTON */}
                     <div className="row">
@@ -1219,9 +759,9 @@ const demo1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END DOCTORS-1 */}
             {/* INFO-8
 			============================================= */}
@@ -1289,13 +829,13 @@ const demo1 = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* END TEXT BLOCK */}
                 {/* INFO-7 IMAGE */}
                 <div className="info-8-img text-center" />
-            </section>{" "}
+            </section>
             {/* END INFO-8 */}
             {/* TABS-1
 			============================================= */}
@@ -1324,7 +864,7 @@ const demo1 = () => {
                                             aria-controls="tab-1"
                                             aria-selected="true"
                                         >
-                                            <span className="flaticon-083-stethoscope" />{" "}
+                                            <span className="flaticon-083-stethoscope" />
                                             Pediatrics
                                         </a>
                                     </li>
@@ -1339,7 +879,7 @@ const demo1 = () => {
                                             aria-controls="tab-2"
                                             aria-selected="false"
                                         >
-                                            <span className="flaticon-005-blood-donation-3" />{" "}
+                                            <span className="flaticon-005-blood-donation-3" />
                                             Hematology
                                         </a>
                                     </li>
@@ -1354,7 +894,7 @@ const demo1 = () => {
                                             aria-controls="tab-3"
                                             aria-selected="false"
                                         >
-                                            <span className="flaticon-031-scanner" />{" "}
+                                            <span className="flaticon-031-scanner" />
                                             MRI
                                         </a>
                                     </li>
@@ -1369,12 +909,12 @@ const demo1 = () => {
                                             aria-controls="tab-4"
                                             aria-selected="false"
                                         >
-                                            <span className="flaticon-048-lungs" />{" "}
+                                            <span className="flaticon-048-lungs" />
                                             X-Ray Diagnostics
                                         </a>
                                     </li>
                                 </ul>
-                            </div>{" "}
+                            </div>
                             {/* END TABS NAVIGATION */}
                             {/* TABS CONTENT */}
                             <div className="tab-content" id="pills-tabContent">
@@ -1492,7 +1032,7 @@ const demo1 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1502,10 +1042,10 @@ const demo1 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-1 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-1 CONTENT */}
                                 {/* TAB-2 CONTENT */}
                                 <div
@@ -1621,7 +1161,7 @@ const demo1 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1631,10 +1171,10 @@ const demo1 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-2 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-2 CONTENT */}
                                 {/* TAB-3 CONTENT */}
                                 <div
@@ -1750,7 +1290,7 @@ const demo1 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1760,10 +1300,10 @@ const demo1 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-3 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-3 CONTENT */}
                                 {/* TAB-4 CONTENT */}
                                 <div
@@ -1879,7 +1419,7 @@ const demo1 = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>{" "}
+                                                </div>
                                                 {/* End Options List */}
                                                 {/* Button */}
                                                 <a
@@ -1889,19 +1429,19 @@ const demo1 = () => {
                                                     View More Details
                                                 </a>
                                             </div>
-                                        </div>{" "}
+                                        </div>
                                         {/* END TAB-4 TEXT */}
                                     </div>
-                                </div>{" "}
+                                </div>
                                 {/* END TAB-4 CONTENT */}
-                            </div>{" "}
+                            </div>
                             {/* END TABS CONTENT */}
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END TABS-1 */}
             {/* STATISTIC-1
 			============================================= */}
@@ -1971,11 +1511,11 @@ const demo1 = () => {
                                 <p className="txt-400">Local Partners</p>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </div>{" "}
+            </div>
             {/* END STATISTIC-1 */}
             {/* PRICING-1
 			============================================= */}
@@ -2032,7 +1572,7 @@ const demo1 = () => {
                                     Select Plan
                                 </a>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END PRICING TABLE #1 */}
                         {/* PRICING TABLE #2 */}
                         <div className="col-lg-4">
@@ -2064,7 +1604,7 @@ const demo1 = () => {
                                     Select Plan
                                 </a>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END PRICING TABLE #1 */}
                         {/* PRICING TABLE #3 */}
                         <div className="col-lg-4">
@@ -2096,9 +1636,9 @@ const demo1 = () => {
                                     Select Plan
                                 </a>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END PRICING TABLE #3 */}
-                    </div>{" "}
+                    </div>
                     {/* END PRICING TABLES */}
                     {/* ALL PRICING TABLES BUTTON */}
                     <div className="row">
@@ -2115,9 +1655,9 @@ const demo1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END PRICING-1 */}
             {/* BANNER-7
 			============================================= */}
@@ -2150,13 +1690,13 @@ const demo1 = () => {
                                     Free Consultation
                                 </a>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END BANNER TEXT */}
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END BANNER-7 */}
             {/* BLOG-1
 			============================================= */}
@@ -2204,7 +1744,7 @@ const demo1 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        May 03, 2019 by{" "}
+                                        May 03, 2019 by
                                         <span>Dr.Jeremy Smith</span>
                                     </span>
                                     {/* Post Text */}
@@ -2216,7 +1756,7 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #1 */}
                         {/* BLOG POST #2 */}
                         <div className="col-lg-4">
@@ -2242,7 +1782,7 @@ const demo1 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        Apr 28, 2019 by{" "}
+                                        Apr 28, 2019 by
                                         <span>Dr.Jonathan Barnes</span>
                                     </span>
                                     {/* Post Text */}
@@ -2254,7 +1794,7 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #2 */}
                         {/* BLOG POST #3 */}
                         <div className="col-lg-4">
@@ -2280,7 +1820,7 @@ const demo1 = () => {
                                     </h5>
                                     {/* Post Data */}
                                     <span>
-                                        Apr 17, 2019 by{" "}
+                                        Apr 17, 2019 by
                                         <span>Dr.Megan Coleman</span>
                                     </span>
                                     {/* Post Text */}
@@ -2292,13 +1832,13 @@ const demo1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END  BLOG POST #3 */}
-                    </div>{" "}
+                    </div>
                     {/* END BLOG POSTS HOLDER */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </section>{" "}
+            </section>
             {/* END BLOG-1 */}
             {/* BANNER-2
 			============================================= */}
@@ -2347,15 +1887,15 @@ const demo1 = () => {
                                         View Our Doctors
                                     </a>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END BANNER TEXT */}
-                        </div>{" "}
+                        </div>
                         {/* End row */}
-                    </div>{" "}
+                    </div>
                     {/* End container */}
-                </div>{" "}
+                </div>
                 {/* End Inner Background */}
-            </section>{" "}
+            </section>
             {/* END BANNER-2 */}
             {/* FOOTER-1
 			============================================= */}
