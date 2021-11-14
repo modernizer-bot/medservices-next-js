@@ -202,7 +202,7 @@ const Contacts2 = () => {
                                         rows={6}
                                         placeholder="Your Message ..."
                                         required
-                                        defaultValue={""}
+                                        defaultValue=""
                                     />
                                 </div>
                                 {/* Contact Form Button */}

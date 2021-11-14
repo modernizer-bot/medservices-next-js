@@ -182,7 +182,7 @@ const Demo5Contacts1 = () => {
                                             placeholder="Your Message ..."
                                             required="required"
                                             data-error="Enter no more than (10) characters."
-                                            defaultValue={""}
+                                            defaultValue=""
                                         />
                                         <div className="help-block with-errors" />
                                     </div>

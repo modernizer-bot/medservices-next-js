@@ -162,7 +162,7 @@ const AppointmentPage = () => {
                                             name="message"
                                             rows={6}
                                             placeholder="Your Message ..."
-                                            defaultValue={""}
+                                            defaultValue=""
                                         />
                                     </div>
                                     {/* Contact Form Button */}

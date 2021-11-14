@@ -606,7 +606,7 @@ const SinglePostBlogPage = () => {
                                             rows={6}
                                             placeholder="Enter Your Comment Here* ..."
                                             required
-                                            defaultValue={""}
+                                            defaultValue=""
                                         />
                                     </div>
                                     <div id="input-name" className="col-md-12">
