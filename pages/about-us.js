@@ -7,7 +7,7 @@ import Statistic1 from "../src/components/Common/Statistic-1";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const aboutUs = () => {
+const AboutUs = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -77,4 +77,4 @@ const aboutUs = () => {
     );
 };
 
-export default aboutUs;
+export default AboutUs;

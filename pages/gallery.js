@@ -3,7 +3,7 @@ import Gallery3 from "../src/components/Gallery/Gallery3";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const gallery = () => {
+const Gallery = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -57,4 +57,4 @@ const gallery = () => {
     );
 };
 
-export default gallery;
+export default Gallery;

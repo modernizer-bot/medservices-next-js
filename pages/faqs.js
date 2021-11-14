@@ -3,7 +3,7 @@ import FaqsPage from "../src/components/Faqs/FaqsPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const faqs = () => {
+const Faqs = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -55,4 +55,4 @@ const faqs = () => {
     );
 };
 
-export default faqs;
+export default Faqs;

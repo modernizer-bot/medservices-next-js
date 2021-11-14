@@ -3,7 +3,7 @@ import TimetablePage from "../src/components/Timetable/TimetablePage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const timetable = () => {
+const Timetable = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -57,4 +57,4 @@ const timetable = () => {
     );
 };
 
-export default timetable;
+export default Timetable;

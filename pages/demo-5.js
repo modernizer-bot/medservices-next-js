@@ -15,7 +15,7 @@ import Demo5Tabs1 from "../src/components/Demo-5/Demo5Tabs1";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const demo5 = () => {
+const Demo5 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -86,4 +86,4 @@ const demo5 = () => {
     );
 };
 
-export default demo5;
+export default Demo5;

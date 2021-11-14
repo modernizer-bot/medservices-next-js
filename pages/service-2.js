@@ -5,7 +5,7 @@ import Service2Reviews2 from "../src/components/Service-2/Service2Reviews2";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const service2 = () => {
+const Service2 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -72,4 +72,4 @@ const service2 = () => {
     );
 };
 
-export default service2;
+export default Service2;

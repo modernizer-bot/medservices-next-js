@@ -3,7 +3,7 @@ import TermsPage from "../src/components/Terms/TermsPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const terms = () => {
+const Terms = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -57,4 +57,4 @@ const terms = () => {
     );
 };
 
-export default terms;
+export default Terms;

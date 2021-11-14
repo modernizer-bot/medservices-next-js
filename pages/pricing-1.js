@@ -6,7 +6,7 @@ import Pricing1reviews2 from "../src/components/Pricing-1/Pricing1reviews2";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const pricing1 = () => {
+const Pricing1 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -72,4 +72,4 @@ const pricing1 = () => {
     );
 };
 
-export default pricing1;
+export default Pricing1;

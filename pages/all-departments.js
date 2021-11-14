@@ -5,7 +5,7 @@ import Banner5 from "../src/components/Common/Banner-5;";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const allDepartments = () => {
+const AllDepartments = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -67,4 +67,4 @@ const allDepartments = () => {
     );
 };
 
-export default allDepartments;
+export default AllDepartments;

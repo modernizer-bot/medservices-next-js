@@ -3,7 +3,7 @@ import BlogPage from "../src/components/Blog-listing/BlogPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const blogListing = () => {
+const BlogListing = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -57,4 +57,4 @@ const blogListing = () => {
     );
 };
 
-export default blogListing;
+export default BlogListing;

@@ -3,7 +3,7 @@ import AppointmentPage from "../src/components/Appointment/AppointmentPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const appointment = () => {
+const Appointment = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -57,4 +57,4 @@ const appointment = () => {
     );
 };
 
-export default appointment;
+export default Appointment;

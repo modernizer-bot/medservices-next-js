@@ -2,7 +2,7 @@ import Contacts1 from "../src/components/Contacts-1/Contacts1";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const contacts1 = () => {
+const Contacts1 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -22,4 +22,4 @@ const contacts1 = () => {
     );
 };
 
-export default contacts1;
+export default Contacts1;

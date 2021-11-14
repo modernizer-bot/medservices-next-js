@@ -3,7 +3,7 @@ import SinglePostBlogPage from "../src/components/Single-post/SinglePostBlogPage
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const singlePost = () => {
+const SinglePost = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -62,4 +62,4 @@ const singlePost = () => {
     );
 };
 
-export default singlePost;
+export default SinglePost;

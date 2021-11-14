@@ -5,7 +5,7 @@ import Testimonials2 from "../src/components/Common/Testimonials-2";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const allDoctors = () => {
+const AllDoctors = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -67,4 +67,4 @@ const allDoctors = () => {
     );
 };
 
-export default allDoctors;
+export default AllDoctors;

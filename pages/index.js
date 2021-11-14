@@ -6,7 +6,7 @@ import HomeHero from "../src/components/Home/HomeHero";
 import HomeInnerPage from "../src/components/Home/HomeInnerPage";
 import HomeSelect from "../src/components/Home/HomeSelect";
 
-export default function Home() {
+const Home = () => {
     return (
         <div id="page" className="page-wrapper">
             {/* HERO
@@ -39,4 +39,6 @@ export default function Home() {
             {/* END FOOTER */}
         </div>
     );
-}
+};
+
+export default Home;

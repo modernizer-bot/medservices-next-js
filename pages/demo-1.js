@@ -17,7 +17,7 @@ import Demo1Pricing1 from "../src/components/Demo-1/Demo1Pricing1";
 import Footer2 from "../src/layout/Footer/Footer2";
 import Header3 from "../src/layout/Header/Header3";
 
-const demo1 = () => {
+const Demo1 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -96,4 +96,4 @@ const demo1 = () => {
     );
 };
 
-export default demo1;
+export default Demo1;

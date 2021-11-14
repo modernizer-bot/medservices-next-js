@@ -15,7 +15,7 @@ import Demo12Video1 from "../src/components/Demo-12/Demo12Video1";
 import Footer1 from "../src/layout/Footer/Footer1";
 import Header6 from "../src/layout/Header/Header6";
 
-const demo12 = () => {
+const Demo12 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -86,4 +86,4 @@ const demo12 = () => {
     );
 };
 
-export default demo12;
+export default Demo12;

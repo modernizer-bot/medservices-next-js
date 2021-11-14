@@ -56,7 +56,7 @@ import Services7 from "../src/components/Common/Services-7";
 import Tabs1 from "../src/components/Common/Tabs-1";
 import Video1 from "../src/components/Common/Video-1";
 
-const all = () => {
+const All = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -299,4 +299,4 @@ const all = () => {
     );
 };
 
-export default all;
+export default All;

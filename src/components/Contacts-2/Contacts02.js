@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Contacts2 = () => {
+const Contacts02 = () => {
     return (
         <section id="contacts-2" className="wide-60 contacts-section division">
             <div className="container">
@@ -232,4 +232,4 @@ const Contacts2 = () => {
     );
 };
 
-export default Contacts2;
+export default Contacts02;

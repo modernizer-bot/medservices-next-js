@@ -13,7 +13,7 @@ import Demo10Tabs1 from "../src/components/Demo-10/Demo10Tabs1";
 import Footer3 from "../src/layout/Footer/Footer3";
 import Header2 from "../src/layout/Header/Header2";
 
-const demo10 = () => {
+const Demo10 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -76,4 +76,4 @@ const demo10 = () => {
     );
 };
 
-export default demo10;
+export default Demo10;

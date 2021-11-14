@@ -3,7 +3,7 @@ import Doctor1Reviews2 from "../src/components/Doctor-1/Doctor1Reviews2";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const doctor1 = () => {
+const Doctor1 = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -48,4 +48,4 @@ const doctor1 = () => {
     );
 };
 
-export default doctor1;
+export default Doctor1;

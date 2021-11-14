@@ -5,7 +5,7 @@ import DepartmentPage from "../src/components/Department-single/DepartmentPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";
 
-const departmentSingle = () => {
+const DepartmentSingle = () => {
     return (
         <div id="page" className="page">
             {/* HEADER
@@ -72,4 +72,4 @@ const departmentSingle = () => {
     );
 };
 
-export default departmentSingle;
+export default DepartmentSingle;
