@@ -1,7 +1,7 @@
 import Link from "next/link";
-import BlogPage from "../src/components/Blog-listing/BlogPage";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import BlogPage from "../src/components/Blog-listing/BlogPage.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const BlogListing = () => {
     return (

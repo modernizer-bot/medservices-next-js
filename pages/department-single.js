@@ -1,9 +1,9 @@
 import Link from "next/link";
-import About5 from "../src/components/Common/About-5";
-import DepartmentDoctors1 from "../src/components/Department-single/DepartmentDoctors1";
-import DepartmentPage from "../src/components/Department-single/DepartmentPage";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import About5 from "../src/components/Common/About-5.js";
+import DepartmentDoctors1 from "../src/components/Department-single/DepartmentDoctors1.js";
+import DepartmentPage from "../src/components/Department-single/DepartmentPage.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const DepartmentSingle = () => {
     return (

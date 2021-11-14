@@ -1,11 +1,11 @@
 import Link from "next/link";
-import AboutUsInfo4 from "../src/components/About-us/AboutUsInfo4";
-import AboutUsVideo2 from "../src/components/About-us/AboutUsVideo2";
+import AboutUsInfo4 from "../src/components/About-us/AboutUsInfo4.js";
+import AboutUsVideo2 from "../src/components/About-us/AboutUsVideo2.js";
 import Banner5 from "../src/components/Common/Banner-5;";
-import Services7 from "../src/components/Common/Services-7";
-import Statistic1 from "../src/components/Common/Statistic-1";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Services7 from "../src/components/Common/Services-7.js";
+import Statistic1 from "../src/components/Common/Statistic-1.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const AboutUs = () => {
     return (

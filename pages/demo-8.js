@@ -1,15 +1,15 @@
-import Demo8Banner7 from "../src/components/Demo-8/Demo8Banner7";
-import Demo8Blog1 from "../src/components/Demo-8/Demo8Blog1";
-import Demo8Doctors1 from "../src/components/Demo-8/Demo8Doctors1";
-import Demo8Hero8 from "../src/components/Demo-8/Demo8Hero8";
-import Demo8Info2 from "../src/components/Demo-8/Demo8Info2";
-import Demo8Info4 from "../src/components/Demo-8/Demo8Info4";
-import Demo8Info5 from "../src/components/Demo-8/Demo8Info5";
-import Demo8Reviews2 from "../src/components/Demo-8/Demo8Reviews2";
-import Demo8Services4 from "../src/components/Demo-8/Demo8Services4";
-import Demo8Video2 from "../src/components/Demo-8/Demo8Video2";
-import Footer5 from "../src/layout/Footer/Footer5";
-import Header4 from "../src/layout/Header/Header4";
+import Demo8Banner7 from "../src/components/Demo-8/Demo8Banner7.js";
+import Demo8Blog1 from "../src/components/Demo-8/Demo8Blog1.js";
+import Demo8Doctors1 from "../src/components/Demo-8/Demo8Doctors1.js";
+import Demo8Hero8 from "../src/components/Demo-8/Demo8Hero8.js";
+import Demo8Info2 from "../src/components/Demo-8/Demo8Info2.js";
+import Demo8Info4 from "../src/components/Demo-8/Demo8Info4.js";
+import Demo8Info5 from "../src/components/Demo-8/Demo8Info5.js";
+import Demo8Reviews2 from "../src/components/Demo-8/Demo8Reviews2.js";
+import Demo8Services4 from "../src/components/Demo-8/Demo8Services4.js";
+import Demo8Video2 from "../src/components/Demo-8/Demo8Video2.js";
+import Footer5 from "../src/layout/Footer/Footer5.js";
+import Header4 from "../src/layout/Header/Header4.js";
 
 const Demo8 = () => {
     return (

@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Service1Doctors1 from "../src/components/Service-1/Service1Doctors1";
-import Service1Page from "../src/components/Service-1/Service1Page";
-import Service1Reviews2 from "../src/components/Service-1/Service1Reviews2";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Service1Doctors1 from "../src/components/Service-1/Service1Doctors1.js";
+import Service1Page from "../src/components/Service-1/Service1Page.js";
+import Service1Reviews2 from "../src/components/Service-1/Service1Reviews2.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Service1 = () => {
     return (

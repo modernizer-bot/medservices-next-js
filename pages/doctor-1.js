@@ -1,7 +1,7 @@
-import Doctor1Details from "../src/components/Doctor-1/Doctor1Details";
-import Doctor1Reviews2 from "../src/components/Doctor-1/Doctor1Reviews2";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Doctor1Details from "../src/components/Doctor-1/Doctor1Details.js";
+import Doctor1Reviews2 from "../src/components/Doctor-1/Doctor1Reviews2.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Doctor1 = () => {
     return (

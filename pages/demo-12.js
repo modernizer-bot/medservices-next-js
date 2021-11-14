@@ -1,19 +1,19 @@
-import Info6 from "../src/components/Common/Info-6";
-import Demo12About2 from "../src/components/Demo-12/Demo12About2";
-import Demo12Banner2 from "../src/components/Demo-12/Demo12Banner2";
-import Demo12Banner8 from "../src/components/Demo-12/Demo12Banner8";
-import Demo12Blog1 from "../src/components/Demo-12/Demo12Blog1";
-import Demo12Doctors1 from "../src/components/Demo-12/Demo12Doctors1";
-import Demo12Hero12 from "../src/components/Demo-12/Demo12Hero12";
-import Demo12Info4 from "../src/components/Demo-12/Demo12Info4";
-import Demo12Info8 from "../src/components/Demo-12/Demo12Info8";
-import Demo12Pricing1 from "../src/components/Demo-12/Demo12Pricing1";
-import Demo12Reviews2 from "../src/components/Demo-12/Demo12Reviews2";
-import Demo12Services5 from "../src/components/Demo-12/Demo12Services5";
-import Demo12Statistic3 from "../src/components/Demo-12/Demo12Statistic3";
-import Demo12Video1 from "../src/components/Demo-12/Demo12Video1";
-import Footer1 from "../src/layout/Footer/Footer1";
-import Header6 from "../src/layout/Header/Header6";
+import Info6 from "../src/components/Common/Info-6.js";
+import Demo12About2 from "../src/components/Demo-12/Demo12About2.js";
+import Demo12Banner2 from "../src/components/Demo-12/Demo12Banner2.js";
+import Demo12Banner8 from "../src/components/Demo-12/Demo12Banner8.js";
+import Demo12Blog1 from "../src/components/Demo-12/Demo12Blog1.js";
+import Demo12Doctors1 from "../src/components/Demo-12/Demo12Doctors1.js";
+import Demo12Hero12 from "../src/components/Demo-12/Demo12Hero12.js";
+import Demo12Info4 from "../src/components/Demo-12/Demo12Info4.js";
+import Demo12Info8 from "../src/components/Demo-12/Demo12Info8.js";
+import Demo12Pricing1 from "../src/components/Demo-12/Demo12Pricing1.js";
+import Demo12Reviews2 from "../src/components/Demo-12/Demo12Reviews2.js";
+import Demo12Services5 from "../src/components/Demo-12/Demo12Services5.js";
+import Demo12Statistic3 from "../src/components/Demo-12/Demo12Statistic3.js";
+import Demo12Video1 from "../src/components/Demo-12/Demo12Video1.js";
+import Footer1 from "../src/layout/Footer/Footer1.js";
+import Header6 from "../src/layout/Header/Header6.js";
 
 const Demo12 = () => {
     return (

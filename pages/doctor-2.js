@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Doctor2Details from "../src/components/Doctor-2/Doctor2Details";
-import Doctor2Reviews2 from "../src/components/Doctor-2/Doctor2Reviews2";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Doctor2Details from "../src/components/Doctor-2/Doctor2Details.js";
+import Doctor2Reviews2 from "../src/components/Doctor-2/Doctor2Reviews2.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Doctor2 = () => {
     return (

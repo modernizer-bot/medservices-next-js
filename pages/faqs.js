@@ -1,7 +1,7 @@
 import Link from "next/link";
-import FaqsPage from "../src/components/Faqs/FaqsPage";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import FaqsPage from "../src/components/Faqs/FaqsPage.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Faqs = () => {
     return (

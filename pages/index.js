@@ -1,10 +1,10 @@
-import HomeBanner from "../src/components/Home/HomeBanner";
-import HomeBanner2 from "../src/components/Home/HomeBanner2";
-import HomeFeatures from "../src/components/Home/HomeFeatures";
-import HomeFooter from "../src/components/Home/HomeFooter";
-import HomeHero from "../src/components/Home/HomeHero";
-import HomeInnerPage from "../src/components/Home/HomeInnerPage";
-import HomeSelect from "../src/components/Home/HomeSelect";
+import HomeBanner from "../src/components/Home/HomeBanner.js";
+import HomeBanner2 from "../src/components/Home/HomeBanner2.js";
+import HomeFeatures from "../src/components/Home/HomeFeatures.js";
+import HomeFooter from "../src/components/Home/HomeFooter.js";
+import HomeHero from "../src/components/Home/HomeHero.js";
+import HomeInnerPage from "../src/components/Home/HomeInnerPage.js";
+import HomeSelect from "../src/components/Home/HomeSelect.js";
 
 const Home = () => {
     return (

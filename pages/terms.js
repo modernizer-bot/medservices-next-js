@@ -1,7 +1,7 @@
 import Link from "next/link";
-import TermsPage from "../src/components/Terms/TermsPage";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import TermsPage from "../src/components/Terms/TermsPage.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Terms = () => {
     return (

@@ -1,20 +1,20 @@
-import About5 from "../src/components/Common/About-5";
-import Info2 from "../src/components/Common/Info-2";
-import Demo2About4 from "../src/components/Demo-2/Demo2About4";
-import Demo2About5 from "../src/components/Demo-2/Demo2About5";
-import Demo2Banner2 from "../src/components/Demo-2/Demo2Banner2";
-import Demo2Banner8 from "../src/components/Demo-2/Demo2Banner8";
-import Demo2Blog1 from "../src/components/Demo-2/Demo2Blog1";
-import Demo2Doctors1 from "../src/components/Demo-2/Demo2Doctors1";
-import Demo2Gallery1 from "../src/components/Demo-2/Demo2Gallery1";
-import Demo2Hero2 from "../src/components/Demo-2/Demo2Hero2";
-import Demo2Info3 from "../src/components/Demo-2/Demo2Info3";
-import Demo2Reviews2 from "../src/components/Demo-2/Demo2Reviews2";
-import Demo2Services2 from "../src/components/Demo-2/Demo2Services2";
-import Demo2Statistic2 from "../src/components/Demo-2/Demo2Statistic2";
-import Demo2Tabs1 from "../src/components/Demo-2/Demo2Tabs1";
-import Footer3 from "../src/layout/Footer/Footer3";
-import Header1 from "../src/layout/Header/Header1";
+import About5 from "../src/components/Common/About-5.js";
+import Info2 from "../src/components/Common/Info-2.js";
+import Demo2About4 from "../src/components/Demo-2/Demo2About4.js";
+import Demo2About5 from "../src/components/Demo-2/Demo2About5.js";
+import Demo2Banner2 from "../src/components/Demo-2/Demo2Banner2.js";
+import Demo2Banner8 from "../src/components/Demo-2/Demo2Banner8.js";
+import Demo2Blog1 from "../src/components/Demo-2/Demo2Blog1.js";
+import Demo2Doctors1 from "../src/components/Demo-2/Demo2Doctors1.js";
+import Demo2Gallery1 from "../src/components/Demo-2/Demo2Gallery1.js";
+import Demo2Hero2 from "../src/components/Demo-2/Demo2Hero2.js";
+import Demo2Info3 from "../src/components/Demo-2/Demo2Info3.js";
+import Demo2Reviews2 from "../src/components/Demo-2/Demo2Reviews2.js";
+import Demo2Services2 from "../src/components/Demo-2/Demo2Services2.js";
+import Demo2Statistic2 from "../src/components/Demo-2/Demo2Statistic2.js";
+import Demo2Tabs1 from "../src/components/Demo-2/Demo2Tabs1.js";
+import Footer3 from "../src/layout/Footer/Footer3.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Demo2 = () => {
     return (

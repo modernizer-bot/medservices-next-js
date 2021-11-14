@@ -1,9 +1,9 @@
 import Link from "next/link";
-import AllDoctorsDoctors3 from "../src/components/All-doctors/AllDoctorsDoctors3";
-import AllDoctorsStatistic1 from "../src/components/All-doctors/AllDoctorsStatistic1";
-import Testimonials2 from "../src/components/Common/Testimonials-2";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import AllDoctorsDoctors3 from "../src/components/All-doctors/AllDoctorsDoctors3.js";
+import AllDoctorsStatistic1 from "../src/components/All-doctors/AllDoctorsStatistic1.js";
+import Testimonials2 from "../src/components/Common/Testimonials-2.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const AllDoctors = () => {
     return (

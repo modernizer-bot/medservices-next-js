@@ -1,17 +1,17 @@
-import Demo10About3 from "../src/components/Demo-10/Demo10About3";
-import Demo10About6 from "../src/components/Demo-10/Demo10About6";
-import Demo10Banner2 from "../src/components/Demo-10/Demo10Banner2";
-import Demo10Blog1 from "../src/components/Demo-10/Demo10Blog1";
-import Demo10Doctors1 from "../src/components/Demo-10/Demo10Doctors1";
-import Demo10Hero10 from "../src/components/Demo-10/Demo10Hero10";
-import Demo10Info2 from "../src/components/Demo-10/Demo10Info2";
-import Demo10Info9 from "../src/components/Demo-10/Demo10Info9";
-import Demo10Reviews2 from "../src/components/Demo-10/Demo10Reviews2";
-import Demo10Services4 from "../src/components/Demo-10/Demo10Services4";
-import Demo10Statistic1 from "../src/components/Demo-10/Demo10Statistic1";
-import Demo10Tabs1 from "../src/components/Demo-10/Demo10Tabs1";
-import Footer3 from "../src/layout/Footer/Footer3";
-import Header2 from "../src/layout/Header/Header2";
+import Demo10About3 from "../src/components/Demo-10/Demo10About3.js";
+import Demo10About6 from "../src/components/Demo-10/Demo10About6.js";
+import Demo10Banner2 from "../src/components/Demo-10/Demo10Banner2.js";
+import Demo10Blog1 from "../src/components/Demo-10/Demo10Blog1.js";
+import Demo10Doctors1 from "../src/components/Demo-10/Demo10Doctors1.js";
+import Demo10Hero10 from "../src/components/Demo-10/Demo10Hero10.js";
+import Demo10Info2 from "../src/components/Demo-10/Demo10Info2.js";
+import Demo10Info9 from "../src/components/Demo-10/Demo10Info9.js";
+import Demo10Reviews2 from "../src/components/Demo-10/Demo10Reviews2.js";
+import Demo10Services4 from "../src/components/Demo-10/Demo10Services4.js";
+import Demo10Statistic1 from "../src/components/Demo-10/Demo10Statistic1.js";
+import Demo10Tabs1 from "../src/components/Demo-10/Demo10Tabs1.js";
+import Footer3 from "../src/layout/Footer/Footer3.js";
+import Header2 from "../src/layout/Header/Header2.js";
 
 const Demo10 = () => {
     return (

@@ -1,20 +1,20 @@
-import Demo7About4 from "../src/components/Demo-7/Demo7About4";
-import Demo7About5 from "../src/components/Demo-7/Demo7About5";
-import Demo7Banner2 from "../src/components/Demo-7/Demo7Banner2";
-import Demo7Blog1 from "../src/components/Demo-7/Demo7Blog1";
-import Demo7Doctors1 from "../src/components/Demo-7/Demo7Doctors1";
-import Demo7Gallery1 from "../src/components/Demo-7/Demo7Gallery1";
-import Demo7Hero7 from "../src/components/Demo-7/Demo7Hero7";
-import Demo7Info2 from "../src/components/Demo-7/Demo7Info2";
-import Demo7Pricing1 from "../src/components/Demo-7/Demo7Pricing1";
-import Demo7Reviews2 from "../src/components/Demo-7/Demo7Reviews2";
-import Demo7Services2 from "../src/components/Demo-7/Demo7Services2";
-import Demo7Services4 from "../src/components/Demo-7/Demo7Services4";
-import Demo7Services6 from "../src/components/Demo-7/Demo7Services6";
-import Demo7Statistic1 from "../src/components/Demo-7/Demo7Statistic1";
-import Demo7Video2 from "../src/components/Demo-7/Demo7Video2";
-import Footer5 from "../src/layout/Footer/Footer5";
-import Header5 from "../src/layout/Header/Header5";
+import Demo7About4 from "../src/components/Demo-7/Demo7About4.js";
+import Demo7About5 from "../src/components/Demo-7/Demo7About5.js";
+import Demo7Banner2 from "../src/components/Demo-7/Demo7Banner2.js";
+import Demo7Blog1 from "../src/components/Demo-7/Demo7Blog1.js";
+import Demo7Doctors1 from "../src/components/Demo-7/Demo7Doctors1.js";
+import Demo7Gallery1 from "../src/components/Demo-7/Demo7Gallery1.js";
+import Demo7Hero7 from "../src/components/Demo-7/Demo7Hero7.js";
+import Demo7Info2 from "../src/components/Demo-7/Demo7Info2.js";
+import Demo7Pricing1 from "../src/components/Demo-7/Demo7Pricing1.js";
+import Demo7Reviews2 from "../src/components/Demo-7/Demo7Reviews2.js";
+import Demo7Services2 from "../src/components/Demo-7/Demo7Services2.js";
+import Demo7Services4 from "../src/components/Demo-7/Demo7Services4.js";
+import Demo7Services6 from "../src/components/Demo-7/Demo7Services6.js";
+import Demo7Statistic1 from "../src/components/Demo-7/Demo7Statistic1.js";
+import Demo7Video2 from "../src/components/Demo-7/Demo7Video2.js";
+import Footer5 from "../src/layout/Footer/Footer5.js";
+import Header5 from "../src/layout/Header/Header5.js";
 
 const Demo7 = () => {
     return (

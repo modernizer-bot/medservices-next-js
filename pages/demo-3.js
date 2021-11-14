@@ -1,18 +1,18 @@
-import Info2 from "../src/components/Common/Info-2";
-import Services3 from "../src/components/Common/Services-3";
-import Demo3About3 from "../src/components/Demo-3/Demo3About3";
-import Demo3About4 from "../src/components/Demo-3/Demo3About4";
-import Demo3Banner2 from "../src/components/Demo-3/Demo3Banner2";
-import Demo3Banner3 from "../src/components/Demo-3/Demo3Banner3";
-import Demo3Doctors1 from "../src/components/Demo-3/Demo3Doctors1";
-import Demo3Gallery1 from "../src/components/Demo-3/Demo3Gallery1";
-import Demo3Hero3 from "../src/components/Demo-3/Demo3Hero3";
-import Demo3Info4 from "../src/components/Demo-3/Demo3Info4";
-import Demo3Reviews2 from "../src/components/Demo-3/Demo3Reviews2";
-import Demo3Statistic1 from "../src/components/Demo-3/Demo3Statistic1";
-import Demo3Tabs1 from "../src/components/Demo-3/Demo3Tabs1";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header2 from "../src/layout/Header/Header2";
+import Info2 from "../src/components/Common/Info-2.js";
+import Services3 from "../src/components/Common/Services-3.js";
+import Demo3About3 from "../src/components/Demo-3/Demo3About3.js";
+import Demo3About4 from "../src/components/Demo-3/Demo3About4.js";
+import Demo3Banner2 from "../src/components/Demo-3/Demo3Banner2.js";
+import Demo3Banner3 from "../src/components/Demo-3/Demo3Banner3.js";
+import Demo3Doctors1 from "../src/components/Demo-3/Demo3Doctors1.js";
+import Demo3Gallery1 from "../src/components/Demo-3/Demo3Gallery1.js";
+import Demo3Hero3 from "../src/components/Demo-3/Demo3Hero3.js";
+import Demo3Info4 from "../src/components/Demo-3/Demo3Info4.js";
+import Demo3Reviews2 from "../src/components/Demo-3/Demo3Reviews2.js";
+import Demo3Statistic1 from "../src/components/Demo-3/Demo3Statistic1.js";
+import Demo3Tabs1 from "../src/components/Demo-3/Demo3Tabs1.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header2 from "../src/layout/Header/Header2.js";
 
 const Demo3 = () => {
     return (

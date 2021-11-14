@@ -1,13 +1,13 @@
 import Link from "next/link";
-import Services3 from "../src/components/Common/Services-3";
-import WhoWeAreAbout5 from "../src/components/Who-we-are/WhoWeAreAbout5";
-import WhoWeAreDoctors1 from "../src/components/Who-we-are/WhoWeAreDoctors1";
-import WhoWeAreInfo1 from "../src/components/Who-we-are/WhoWeAreInfo1";
-import WhoWeAreInfo9 from "../src/components/Who-we-are/WhoWeAreInfo9";
-import WhoWeAreReviews2 from "../src/components/Who-we-are/WhoWeAreReviews2";
-import WhoWeAreTabs1 from "../src/components/Who-we-are/WhoWeAreTabs1";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Services3 from "../src/components/Common/Services-3.js";
+import WhoWeAreAbout5 from "../src/components/Who-we-are/WhoWeAreAbout5.js";
+import WhoWeAreDoctors1 from "../src/components/Who-we-are/WhoWeAreDoctors1.js";
+import WhoWeAreInfo1 from "../src/components/Who-we-are/WhoWeAreInfo1.js";
+import WhoWeAreInfo9 from "../src/components/Who-we-are/WhoWeAreInfo9.js";
+import WhoWeAreReviews2 from "../src/components/Who-we-are/WhoWeAreReviews2.js";
+import WhoWeAreTabs1 from "../src/components/Who-we-are/WhoWeAreTabs1.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const WhoWeAre = () => {
     return (

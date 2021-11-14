@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Contacts02 from "../src/components/Contacts-2/Contacts02";
-import ContactsBanner8 from "../src/components/Contacts-2/ContactsBanner8";
-import Footer2 from "../src/layout/Footer/Footer2";
-import Header1 from "../src/layout/Header/Header1";
+import Contacts02 from "../src/components/Contacts-2/Contacts02.js";
+import ContactsBanner8 from "../src/components/Contacts-2/ContactsBanner8.js";
+import Footer2 from "../src/layout/Footer/Footer2.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Contacts2 = () => {
     return (

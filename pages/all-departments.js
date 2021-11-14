@@ -1,9 +1,9 @@
 import Link from "next/link";
-import AllDepartmentServices7 from "../src/components/All-departments/AllDepartmentServices7";
-import About5 from "../src/components/Common/About-5";
+import AllDepartmentServices7 from "../src/components/All-departments/AllDepartmentServices7.js";
+import About5 from "../src/components/Common/About-5.js";
 import Banner5 from "../src/components/Common/Banner-5;";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const AllDepartments = () => {
     return (

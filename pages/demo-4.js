@@ -1,17 +1,17 @@
-import Info6 from "../src/components/Common/Info-6";
-import Services7 from "../src/components/Common/Services-7";
-import Demo4About6 from "../src/components/Demo-4/Demo4About6";
-import Demo4Banner7 from "../src/components/Demo-4/Demo4Banner7";
-import Demo4Blog1 from "../src/components/Demo-4/Demo4Blog1";
-import Demo4Doctors1 from "../src/components/Demo-4/Demo4Doctors1";
-import Demo4Hero4 from "../src/components/Demo-4/Demo4Hero4";
-import Demo4Info4 from "../src/components/Demo-4/Demo4Info4";
-import Demo4Reviews2 from "../src/components/Demo-4/Demo4Reviews2";
-import Demo4Statistic3 from "../src/components/Demo-4/Demo4Statistic3";
-import Demo4Tabs1 from "../src/components/Demo-4/Demo4Tabs1";
-import Demo4Video2 from "../src/components/Demo-4/Demo4Video2";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header5 from "../src/layout/Header/Header5";
+import Info6 from "../src/components/Common/Info-6.js";
+import Services7 from "../src/components/Common/Services-7.js";
+import Demo4About6 from "../src/components/Demo-4/Demo4About6.js";
+import Demo4Banner7 from "../src/components/Demo-4/Demo4Banner7.js";
+import Demo4Blog1 from "../src/components/Demo-4/Demo4Blog1.js";
+import Demo4Doctors1 from "../src/components/Demo-4/Demo4Doctors1.js";
+import Demo4Hero4 from "../src/components/Demo-4/Demo4Hero4.js";
+import Demo4Info4 from "../src/components/Demo-4/Demo4Info4.js";
+import Demo4Reviews2 from "../src/components/Demo-4/Demo4Reviews2.js";
+import Demo4Statistic3 from "../src/components/Demo-4/Demo4Statistic3.js";
+import Demo4Tabs1 from "../src/components/Demo-4/Demo4Tabs1.js";
+import Demo4Video2 from "../src/components/Demo-4/Demo4Video2.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header5 from "../src/layout/Header/Header5.js";
 
 const Demo4 = () => {
     return (

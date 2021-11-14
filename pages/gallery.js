@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Gallery3 from "../src/components/Gallery/Gallery3";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Gallery3 from "../src/components/Gallery/Gallery3.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Gallery = () => {
     return (

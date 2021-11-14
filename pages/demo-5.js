@@ -1,19 +1,19 @@
-import About5 from "../src/components/Common/About-5";
+import About5 from "../src/components/Common/About-5.js";
 import Banner5 from "../src/components/Common/Banner-5;";
-import Demo5About2 from "../src/components/Demo-5/Demo5About2";
-import Demo5About6 from "../src/components/Demo-5/Demo5About6";
-import Demo5Blog1 from "../src/components/Demo-5/Demo5Blog1";
-import Demo5Contacts1 from "../src/components/Demo-5/Demo5Contacts1";
-import Demo5Doctors1 from "../src/components/Demo-5/Demo5Doctors1";
-import Demo5Gallery1 from "../src/components/Demo-5/Demo5Gallery1";
-import Demo5Hero5 from "../src/components/Demo-5/Demo5Hero5";
-import Demo5Pricing3 from "../src/components/Demo-5/Demo5Pricing3";
-import Demo5Reviews2 from "../src/components/Demo-5/Demo5Reviews2";
-import Demo5Services2 from "../src/components/Demo-5/Demo5Services2";
-import Demo5Statistic1 from "../src/components/Demo-5/Demo5Statistic1";
-import Demo5Tabs1 from "../src/components/Demo-5/Demo5Tabs1";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Demo5About2 from "../src/components/Demo-5/Demo5About2.js";
+import Demo5About6 from "../src/components/Demo-5/Demo5About6.js";
+import Demo5Blog1 from "../src/components/Demo-5/Demo5Blog1.js";
+import Demo5Contacts1 from "../src/components/Demo-5/Demo5Contacts1.js";
+import Demo5Doctors1 from "../src/components/Demo-5/Demo5Doctors1.js";
+import Demo5Gallery1 from "../src/components/Demo-5/Demo5Gallery1.js";
+import Demo5Hero5 from "../src/components/Demo-5/Demo5Hero5.js";
+import Demo5Pricing3 from "../src/components/Demo-5/Demo5Pricing3.js";
+import Demo5Reviews2 from "../src/components/Demo-5/Demo5Reviews2.js";
+import Demo5Services2 from "../src/components/Demo-5/Demo5Services2.js";
+import Demo5Statistic1 from "../src/components/Demo-5/Demo5Statistic1.js";
+import Demo5Tabs1 from "../src/components/Demo-5/Demo5Tabs1.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Demo5 = () => {
     return (

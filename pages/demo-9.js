@@ -1,18 +1,18 @@
-import Services3 from "../src/components/Common/Services-3";
-import Demo9About4 from "../src/components/Demo-9/Demo9About4";
-import Demo9About6 from "../src/components/Demo-9/Demo9About6";
-import Demo9Banner4 from "../src/components/Demo-9/Demo9Banner4";
-import Demo9Banner7 from "../src/components/Demo-9/Demo9Banner7";
-import Demo9Blog1 from "../src/components/Demo-9/Demo9Blog1";
-import Demo9Doctors1 from "../src/components/Demo-9/Demo9Doctors1";
-import Demo9Hero9 from "../src/components/Demo-9/Demo9Hero9";
-import Demo9Info2 from "../src/components/Demo-9/Demo9Info2";
-import Demo9Info6 from "../src/components/Demo-9/Demo9Info6";
-import Demo9Reviews2 from "../src/components/Demo-9/Demo9Reviews2";
-import Demo9Statistic1 from "../src/components/Demo-9/Demo9Statistic1";
-import Demo9Tabs1 from "../src/components/Demo-9/Demo9Tabs1";
-import Footer1 from "../src/layout/Footer/Footer1";
-import Header5 from "../src/layout/Header/Header5";
+import Services3 from "../src/components/Common/Services-3.js";
+import Demo9About4 from "../src/components/Demo-9/Demo9About4.js";
+import Demo9About6 from "../src/components/Demo-9/Demo9About6.js";
+import Demo9Banner4 from "../src/components/Demo-9/Demo9Banner4.js";
+import Demo9Banner7 from "../src/components/Demo-9/Demo9Banner7.js";
+import Demo9Blog1 from "../src/components/Demo-9/Demo9Blog1.js";
+import Demo9Doctors1 from "../src/components/Demo-9/Demo9Doctors1.js";
+import Demo9Hero9 from "../src/components/Demo-9/Demo9Hero9.js";
+import Demo9Info2 from "../src/components/Demo-9/Demo9Info2.js";
+import Demo9Info6 from "../src/components/Demo-9/Demo9Info6.js";
+import Demo9Reviews2 from "../src/components/Demo-9/Demo9Reviews2.js";
+import Demo9Statistic1 from "../src/components/Demo-9/Demo9Statistic1.js";
+import Demo9Tabs1 from "../src/components/Demo-9/Demo9Tabs1.js";
+import Footer1 from "../src/layout/Footer/Footer1.js";
+import Header5 from "../src/layout/Header/Header5.js";
 
 const Demo9 = () => {
     return (

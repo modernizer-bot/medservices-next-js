@@ -1,7 +1,7 @@
 import Link from "next/link";
-import SinglePostBlogPage from "../src/components/Single-post/SinglePostBlogPage";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import SinglePostBlogPage from "../src/components/Single-post/SinglePostBlogPage.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const SinglePost = () => {
     return (

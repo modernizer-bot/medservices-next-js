@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Banner5 from "../src/components/Common/Banner-5;";
-import Pricing2Page from "../src/components/Pricing-2/Pricing2Page";
-import Pricing2Pricing1 from "../src/components/Pricing-2/Pricing2Pricing1";
-import Footer4 from "../src/layout/Footer/Footer4";
-import Header1 from "../src/layout/Header/Header1";
+import Pricing2Page from "../src/components/Pricing-2/Pricing2Page.js";
+import Pricing2Pricing1 from "../src/components/Pricing-2/Pricing2Pricing1.js";
+import Footer4 from "../src/layout/Footer/Footer4.js";
+import Header1 from "../src/layout/Header/Header1.js";
 
 const Pricing2 = () => {
     return (
