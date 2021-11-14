@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import FaqsPage from "../src/components/Faqs/FaqsPage";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header1 from "../src/layout/Header/Header1";

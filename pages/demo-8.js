@@ -1,4 +1,3 @@
-import React from "react";
 import Demo8Banner7 from "../src/components/Demo-8/Demo8Banner7";
 import Demo8Blog1 from "../src/components/Demo-8/Demo8Blog1";
 import Demo8Doctors1 from "../src/components/Demo-8/Demo8Doctors1";

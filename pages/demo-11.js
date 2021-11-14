@@ -1,4 +1,3 @@
-import React from "react";
 import About5 from "../src/components/Common/About-5";
 import Demo11About2 from "../src/components/Demo-11/Demo11About2";
 import Demo11Banner2 from "../src/components/Demo-11/Demo11Banner2";

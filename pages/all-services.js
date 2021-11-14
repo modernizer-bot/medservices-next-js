@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import AllServicesTabs2 from "../src/components/All-services/AllServicesTabs2";
 import AllServicesTestimonials2 from "../src/components/All-services/AllServicesTestimonials2";
 import Banner5 from "../src/components/Common/Banner-5;";

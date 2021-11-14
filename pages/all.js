@@ -1,4 +1,3 @@
-import React from "react";
 import AllAbout1 from "../src/components/All/AllAbout1";
 import AllAbout2 from "../src/components/All/AllAbout2";
 import AllAbout3 from "../src/components/All/AllAbout3";

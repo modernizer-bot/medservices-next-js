@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import AllDepartmentServices7 from "../src/components/All-departments/AllDepartmentServices7";
 import About5 from "../src/components/Common/About-5";
 import Banner5 from "../src/components/Common/Banner-5;";

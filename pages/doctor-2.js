@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Doctor2Details from "../src/components/Doctor-2/Doctor2Details";
 import Doctor2Reviews2 from "../src/components/Doctor-2/Doctor2Reviews2";
 import Footer4 from "../src/layout/Footer/Footer4";

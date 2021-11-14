@@ -1,4 +1,3 @@
-import React from "react";
 import Doctor1Details from "../src/components/Doctor-1/Doctor1Details";
 import Doctor1Reviews2 from "../src/components/Doctor-1/Doctor1Reviews2";
 import Footer4 from "../src/layout/Footer/Footer4";

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Banner5 from "../src/components/Common/Banner-5;";
 import Pricing2Page from "../src/components/Pricing-2/Pricing2Page";
 import Pricing2Pricing1 from "../src/components/Pricing-2/Pricing2Pricing1";

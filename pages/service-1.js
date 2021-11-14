@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Service1Doctors1 from "../src/components/Service-1/Service1Doctors1";
 import Service1Page from "../src/components/Service-1/Service1Page";
 import Service1Reviews2 from "../src/components/Service-1/Service1Reviews2";

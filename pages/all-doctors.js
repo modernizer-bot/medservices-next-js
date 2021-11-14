@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import AllDoctorsDoctors3 from "../src/components/All-doctors/AllDoctorsDoctors3";
 import AllDoctorsStatistic1 from "../src/components/All-doctors/AllDoctorsStatistic1";
 import Testimonials2 from "../src/components/Common/Testimonials-2";

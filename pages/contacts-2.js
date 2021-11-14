@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Contacts2 from "../src/components/Contacts-2/Contacts2";
 import ContactsBanner8 from "../src/components/Contacts-2/ContactsBanner8";
 import Footer2 from "../src/layout/Footer/Footer2";
