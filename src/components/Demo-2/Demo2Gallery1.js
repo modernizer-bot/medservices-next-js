@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo2Gallery1 = () => {
@@ -34,13 +35,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-1.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-1.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -56,13 +62,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-2.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-2.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -78,13 +89,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-3.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-3.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -100,13 +116,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-4.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-4.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -122,13 +143,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-5.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-5.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -144,13 +170,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-6.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-6.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -166,13 +197,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-7.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-7.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -188,13 +224,18 @@ const Demo2Gallery1 = () => {
                         <div className="item-overlay" />
                         {/* Image Zoom */}
                         <div className="image-zoom">
-                            <a
-                                className="image-link"
-                                href="images/gallery/image-8.jpg"
-                                title
-                            >
-                                <i className="fas fa-search-plus" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="image-link"
+                                    href="images/gallery/image-8.jpg"
+                                    title
+                                >
+                                    <i className="fas fa-search-plus" />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>

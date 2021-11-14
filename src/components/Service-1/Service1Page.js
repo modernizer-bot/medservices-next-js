@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Service1Page = () => {
@@ -75,12 +76,11 @@ const Service1Page = () => {
                                 neque
                             </p>
                             {/* Button */}
-                            <a
-                                href="appointment.html"
-                                className="btn btn-md btn-blue blue-hover"
-                            >
-                                Book an Appointment
-                            </a>
+                            <Link href="/appointment">
+                                <a className="btn btn-md btn-blue blue-hover">
+                                    Book an Appointment
+                                </a>
+                            </Link>
                             {/* Text */}
                             <h4 className="h4-lg">
                                 Service Cost:

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo6Hero6 = () => {
@@ -32,12 +33,11 @@ const Demo6Hero6 = () => {
                                                 lorem in tortor
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="about-us.html"
-                                                className="btn btn-blue tra-white-hover"
-                                            >
-                                                More About Clinic
-                                            </a>
+                                            <Link href="/about-us">
+                                                <a className="btn btn-blue tra-white-hover">
+                                                    More About Clinic
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -74,18 +74,16 @@ const Demo6Hero6 = () => {
                                                 lorem in tortor
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="who-we-are.html"
-                                                className="btn btn-tra-white black-hover mr-10"
-                                            >
-                                                Get More Info
-                                            </a>
-                                            <a
-                                                href="all-services.html"
-                                                className="btn btn-blue blue-hover"
-                                            >
-                                                Our Core Services
-                                            </a>
+                                            <Link href="/who-we-are">
+                                                <a className="btn btn-tra-white black-hover mr-10">
+                                                    Get More Info
+                                                </a>
+                                            </Link>
+                                            <Link href="/all-services">
+                                                <a className="btn btn-blue blue-hover">
+                                                    Our Core Services
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -122,18 +120,16 @@ const Demo6Hero6 = () => {
                                                 lorem in tortor
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="all-doctors.html"
-                                                className="btn btn-blue blue-hover mr-10"
-                                            >
-                                                View All Doctors
-                                            </a>
-                                            <a
-                                                href="timetable.html"
-                                                className="btn btn-tra-white black-hover"
-                                            >
-                                                Doctors Timetable
-                                            </a>
+                                            <Link href="/all-doctors">
+                                                <a className="btn btn-blue blue-hover mr-10">
+                                                    View All Doctors
+                                                </a>
+                                            </Link>
+                                            <Link href="/timetable">
+                                                <a className="btn btn-tra-white black-hover">
+                                                    Doctors Timetable
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

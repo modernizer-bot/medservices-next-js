@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllAbout2 = () => {
@@ -55,12 +56,11 @@ const AllAbout2 = () => {
                                     feugiat dolor impedit felis magna
                                 </p>
                                 {/* Button */}
-                                <a
-                                    href="timetable.html"
-                                    className="btn btn-sm btn-blue blue-hover mt-25"
-                                >
-                                    View Timetable
-                                </a>
+                                <Link href="/timetable">
+                                    <a className="btn btn-sm btn-blue blue-hover mt-25">
+                                        View Timetable
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         {/* ABOUT BOX #3 */}

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HomeSelect = () => {
@@ -19,13 +20,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-1"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-1"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -46,13 +52,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-2"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-2"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -73,13 +84,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-3"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-3"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -100,13 +116,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-4"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-4"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -127,13 +148,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-5"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-5"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -154,13 +180,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-6"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-6"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -181,13 +212,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-7"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-7"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -208,13 +244,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-8"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-8"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -235,13 +276,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-9"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-9"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -262,13 +308,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-10"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-10"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -289,13 +340,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-11"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-11"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -316,13 +372,18 @@ const HomeSelect = () => {
                                 />
                                 <div className="item-overlay">
                                     <div className="overlay-content">
-                                        <a
-                                            className="btn"
-                                            href="/demo-12"
-                                            target="_blank"
-                                        >
-                                            Launch Demo
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="btn"
+                                                href="/demo-12"
+                                                target="_blank"
+                                            >
+                                                Launch Demo
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo8Hero8 = () => {
@@ -37,12 +38,11 @@ const Demo8Hero8 = () => {
                                                 feugiat dolor impedit magna
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="about-us.html"
-                                                className="btn btn-lime black-hover"
-                                            >
-                                                More About Clinic
-                                            </a>
+                                            <Link href="/about-us">
+                                                <a className="btn btn-lime black-hover">
+                                                    More About Clinic
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -97,12 +97,11 @@ const Demo8Hero8 = () => {
                                                 </p>
                                             </div>
                                             {/* Button */}
-                                            <a
-                                                href="all-services.html"
-                                                className="btn btn-lime black-hover"
-                                            >
-                                                Our Core Services
-                                            </a>
+                                            <Link href="/all-services">
+                                                <a className="btn btn-lime black-hover">
+                                                    Our Core Services
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -157,12 +156,12 @@ const Demo8Hero8 = () => {
                                                 </p>
                                             </div>
                                             {/* Button */}
-                                            <a
-                                                href="all-doctors.html"
-                                                className="btn btn-lime black-hover"
-                                            >
-                                                Meet the Doctors
-                                            </a>
+                                            <Link href="/all-doctors">
+                                                {" "}
+                                                <a className="btn btn-lime black-hover">
+                                                    Meet the Doctors
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

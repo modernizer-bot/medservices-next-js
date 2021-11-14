@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllServicesTabs2 = () => {
@@ -18,59 +19,79 @@ const AllServicesTabs2 = () => {
                             >
                                 {/* TAB-1 LINK */}
                                 <li className="nav-item icon-xs">
-                                    <a
-                                        className="nav-link active"
-                                        id="tab11-list"
-                                        data-toggle="pill"
-                                        href="#tab-11"
-                                        role="tab"
-                                        aria-controls="tab-11"
-                                        aria-selected="true"
-                                    >
-                                        Routine Medical Care
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="nav-link active"
+                                            id="tab11-list"
+                                            data-toggle="pill"
+                                            href="#tab-11"
+                                            role="tab"
+                                            aria-controls="tab-11"
+                                            aria-selected="true"
+                                        >
+                                            Routine Medical Care
+                                        </a>{" "}
+                                    </Link>
                                 </li>
                                 {/* TAB-2 LINK */}
                                 <li className="nav-item icon-xs">
-                                    <a
-                                        className="nav-link"
-                                        id="tab12-list"
-                                        data-toggle="pill"
-                                        href="#tab-12"
-                                        role="tab"
-                                        aria-controls="tab-12"
-                                        aria-selected="false"
-                                    >
-                                        Full Blood Picture
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="nav-link"
+                                            id="tab12-list"
+                                            data-toggle="pill"
+                                            href="#tab-12"
+                                            role="tab"
+                                            aria-controls="tab-12"
+                                            aria-selected="false"
+                                        >
+                                            Full Blood Picture
+                                        </a>{" "}
+                                    </Link>
                                 </li>
                                 {/* TAB-3 LINK */}
                                 <li className="nav-item icon-xs">
-                                    <a
-                                        className="nav-link"
-                                        id="tab13-list"
-                                        data-toggle="pill"
-                                        href="#tab-13"
-                                        role="tab"
-                                        aria-controls="tab-13"
-                                        aria-selected="false"
-                                    >
-                                        MRI Diagnostic
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="nav-link"
+                                            id="tab13-list"
+                                            data-toggle="pill"
+                                            href="#tab-13"
+                                            role="tab"
+                                            aria-controls="tab-13"
+                                            aria-selected="false"
+                                        >
+                                            MRI Diagnostic
+                                        </a>{" "}
+                                    </Link>
                                 </li>
                                 {/* TAB-4 LINK */}
                                 <li className="nav-item icon-xs">
-                                    <a
-                                        className="nav-link"
-                                        id="tab14-list"
-                                        data-toggle="pill"
-                                        href="#tab-14"
-                                        role="tab"
-                                        aria-controls="tab-14"
-                                        aria-selected="false"
-                                    >
-                                        X-Ray Diagnostic
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="nav-link"
+                                            id="tab14-list"
+                                            data-toggle="pill"
+                                            href="#tab-14"
+                                            role="tab"
+                                            aria-controls="tab-14"
+                                            aria-selected="false"
+                                        >
+                                            X-Ray Diagnostic
+                                        </a>{" "}
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -192,12 +213,11 @@ const AllServicesTabs2 = () => {
                                 </div>
                                 {/* End Options List */}
                                 {/* Button */}
-                                <a
-                                    href="service-1.html"
-                                    className="btn btn-blue blue-hover mt-30"
-                                >
-                                    View More Details
-                                </a>
+                                <Link href="/service-1">
+                                    <a className="btn btn-blue blue-hover mt-30">
+                                        View More Details
+                                    </a>
+                                </Link>
                             </div>
                             {/* END TAB-1 CONTENT */}
                             {/* TAB-2 CONTENT */}
@@ -313,12 +333,11 @@ const AllServicesTabs2 = () => {
                                 </div>
                                 {/* End Options List */}
                                 {/* Button */}
-                                <a
-                                    href="service-1.html"
-                                    className="btn btn-blue blue-hover mt-30"
-                                >
-                                    View More Details
-                                </a>
+                                <Link href="/service-1">
+                                    <a className="btn btn-blue blue-hover mt-30">
+                                        View More Details
+                                    </a>
+                                </Link>
                             </div>
                             {/* END TAB-2 CONTENT */}
                             {/* TAB-3 CONTENT */}
@@ -434,12 +453,11 @@ const AllServicesTabs2 = () => {
                                 </div>
                                 {/* End Options List */}
                                 {/* Button */}
-                                <a
-                                    href="service-1.html"
-                                    className="btn btn-blue blue-hover mt-30"
-                                >
-                                    View More Details
-                                </a>
+                                <Link href="/service-1">
+                                    <a className="btn btn-blue blue-hover mt-30">
+                                        View More Details
+                                    </a>
+                                </Link>
                             </div>
                             {/* END TAB-3 CONTENT */}
                             {/* TAB-4 CONTENT */}
@@ -555,12 +573,11 @@ const AllServicesTabs2 = () => {
                                 </div>
                                 {/* End Options List */}
                                 {/* Button */}
-                                <a
-                                    href="service-1.html"
-                                    className="btn btn-blue blue-hover mt-30"
-                                >
-                                    View More Details
-                                </a>
+                                <Link href="/service-1">
+                                    <a className="btn btn-blue blue-hover mt-30">
+                                        View More Details
+                                    </a>
+                                </Link>
                             </div>
                             {/* END TAB-4 CONTENT */}
                         </div>

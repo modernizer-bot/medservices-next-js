@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo7Services2 = () => {
@@ -26,20 +27,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.4s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/braces.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Tooth Braces
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/braces.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Tooth Braces
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #2 */}
@@ -48,20 +51,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.6s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/implant.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Dental Implants
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/implant.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Dental Implants
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #3 */}
@@ -70,20 +75,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.8s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/broken.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Paradontosis
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/broken.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Paradontosis
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #4 */}
@@ -92,20 +99,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/calculus.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Dental Calculus
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/calculus.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Dental Calculus
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #5 */}
@@ -114,20 +123,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.4s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/equipment.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Teeth Whitening
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/equipment.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Teeth Whitening
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #6 */}
@@ -136,20 +147,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.6s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/clean.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Teeth Cleaning
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/clean.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Teeth Cleaning
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #7 */}
@@ -158,20 +171,22 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.8s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/anesthetic.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Modern Anesthetic
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/anesthetic.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Modern Anesthetic
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #8 */}
@@ -180,20 +195,23 @@ const Demo7Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon">
-                                    <img
-                                        className="img-80"
-                                        src="images/icons/caries.png"
-                                        alt="service-icon"
-                                    />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title">
-                                    Emergency Help
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                {" "}
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon">
+                                        <img
+                                            className="img-80"
+                                            src="images/icons/caries.png"
+                                            alt="service-icon"
+                                        />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title">
+                                        Emergency Help
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

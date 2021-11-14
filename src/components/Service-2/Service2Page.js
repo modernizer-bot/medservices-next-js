@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Service2Page = () => {
@@ -246,12 +247,11 @@ const Service2Page = () => {
                                 suscipit
                             </p>
                             {/* Button */}
-                            <a
-                                href="appointment.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Book an Appointment
-                            </a>
+                            <Link href="/appointment">
+                                <a className="btn btn-blue blue-hover">
+                                    Book an Appointment
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* END SERVICE CONTENT */}
@@ -289,12 +289,11 @@ const Service2Page = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* SIDEBAR TABLE */}
@@ -360,12 +359,11 @@ const Service2Page = () => {
                                 dolor lacinia cursus nulla vitae massa
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover mt-10"
-                            >
-                                View Timetable
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover mt-10">
+                                    View Timetable
+                                </a>
+                            </Link>
                         </div>
                         {/* END SIDEBAR TABLE */}
                     </aside>

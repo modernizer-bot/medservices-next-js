@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo11Pricing2 = () => {
@@ -160,12 +161,11 @@ const Demo11Pricing2 = () => {
                                 tempor
                             </p>
                             {/* Pricing Table Button  */}
-                            <a
-                                href="pricing.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                View More Pricing
-                            </a>
+                            <Link href="/pricing">
+                                <a className="btn btn-blue blue-hover">
+                                    View More Pricing
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

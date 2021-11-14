@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo11Services2 = () => {
@@ -26,16 +27,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.4s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-083-stethoscope" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Pediatrics
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-083-stethoscope" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Pediatrics
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #2 */}
@@ -44,16 +47,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.6s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-047-head" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Neurology
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-047-head" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Neurology
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #3 */}
@@ -62,16 +67,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.8s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-015-blood-donation-1" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Haematology
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-015-blood-donation-1" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Haematology
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #4 */}
@@ -80,16 +87,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-048-lungs" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    X-Ray Diagnostic
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-048-lungs" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        X-Ray Diagnostic
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #5 */}
@@ -98,16 +107,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.4s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-060-cardiogram-4" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Cardiology
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-060-cardiogram-4" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Cardiology
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #6 */}
@@ -116,16 +127,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.6s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-031-scanner" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    MRI
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-031-scanner" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        MRI
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #7 */}
@@ -134,16 +147,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="0.8s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-076-microscope" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Laboratory Services
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-076-microscope" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Laboratory Services
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     {/* SERVICE BOX #8 */}
@@ -152,16 +167,18 @@ const Demo11Services2 = () => {
                             className="sbox-2 wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a href="department-single.html">
-                                {/* Icon  */}
-                                <div className="sbox-2-icon icon-xl">
-                                    <span className="flaticon-068-ambulance-3" />
-                                </div>
-                                {/* Title */}
-                                <h5 className="h5-sm sbox-2-title steelblue-color">
-                                    Emergency Help
-                                </h5>
-                            </a>
+                            <Link href="/department-single">
+                                <a>
+                                    {/* Icon  */}
+                                    <div className="sbox-2-icon icon-xl">
+                                        <span className="flaticon-068-ambulance-3" />
+                                    </div>
+                                    {/* Title */}
+                                    <h5 className="h5-sm sbox-2-title steelblue-color">
+                                        Emergency Help
+                                    </h5>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

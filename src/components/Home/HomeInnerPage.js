@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HomeInnerPage = () => {
@@ -34,13 +35,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/about-us"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/about-us"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -56,13 +62,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/who-we-are"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/who-we-are"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -78,13 +89,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/all-services"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/all-services"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -100,13 +116,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/service-1"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/service-1"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -124,13 +145,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/service-2"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/service-2"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -148,13 +174,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/all-departments"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/all-departments"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -170,13 +201,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/department-single"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/department-single"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -192,13 +228,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/all-doctors"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/all-doctors"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -214,13 +255,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/doctor-1"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/doctor-1"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -238,13 +284,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/doctor-2"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/doctor-2"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -262,13 +313,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/pricing-1"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/pricing-1"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -286,13 +342,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/pricing-2"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/pricing-2"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -310,13 +371,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/timetable"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/timetable"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -332,13 +398,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/appointment"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/appointment"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -354,13 +425,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/blog-listing"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/blog-listing"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -376,13 +452,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/single-post"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/single-post"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -398,13 +479,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/gallery"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/gallery"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -420,13 +506,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/faqs"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/faqs"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -442,13 +533,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/terms"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/terms"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -464,13 +560,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/contacts-1"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/contacts-1"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -488,13 +589,18 @@ const HomeInnerPage = () => {
                                         />
                                         <div className="item-overlay">
                                             <div className="overlay-content">
-                                                <a
-                                                    className="btn"
-                                                    href="/contacts-2"
-                                                    target="_blank"
-                                                >
-                                                    Launch Demo
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="btn"
+                                                        href="/contacts-2"
+                                                        target="_blank"
+                                                    >
+                                                        Launch Demo
+                                                    </a>{" "}
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllBanner3 = () => {
@@ -31,12 +32,16 @@ const AllBanner3 = () => {
                                 neque undo luctus feugiat augue suscipit
                             </p>
                             {/* Button */}
-                            <a
-                                href="#"
-                                className="btn btn-blue blue-hover mt-15"
-                            >
-                                Make An Apointment
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="btn btn-blue blue-hover mt-15"
+                                >
+                                    Make An Apointment
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                     {/* END BANNER TEXT */}

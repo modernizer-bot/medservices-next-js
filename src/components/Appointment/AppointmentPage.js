@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AppointmentPage = () => {
@@ -229,12 +230,11 @@ const AppointmentPage = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* SIDEBAR TABLE */}

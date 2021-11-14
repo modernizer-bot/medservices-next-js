@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import About5 from "../src/components/Common/About-5";
 import DepartmentDoctors1 from "../src/components/Department-single/DepartmentDoctors1";
@@ -23,12 +24,14 @@ const departmentSingle = () => {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item">
-                                            <a href="demo-1.html">Home</a>
+                                            <Link href="/demo-1">
+                                                <a>Home</a>
+                                            </Link>
                                         </li>
                                         <li className="breadcrumb-item">
-                                            <a href="departments.html">
-                                                Departments
-                                            </a>
+                                            <Link href="/departments">
+                                                <a>Departments</a>
+                                            </Link>
                                         </li>
                                         <li
                                             className="breadcrumb-item active"

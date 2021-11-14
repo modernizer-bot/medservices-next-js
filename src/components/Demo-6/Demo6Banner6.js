@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo6Banner6 = () => {
@@ -24,12 +25,11 @@ const Demo6Banner6 = () => {
                     {/* BANNER BUTTON */}
                     <div className="col-lg-3 ">
                         <div className="banner-btn text-right">
-                            <a
-                                href="contacts-1.html"
-                                className="btn btn-md btn-tra-white blue-hover"
-                            >
-                                Get In Touch
-                            </a>
+                            <Link href="/contacts-1">
+                                <a className="btn btn-md btn-tra-white blue-hover">
+                                    Get In Touch
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

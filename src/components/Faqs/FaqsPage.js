@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FaqsPage = () => {
@@ -39,16 +40,21 @@ const FaqsPage = () => {
                                         id="headingOne"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                data-toggle="collapse"
-                                                href="#collapseOne"
-                                                role="button"
-                                                aria-expanded="true"
-                                                aria-controls="collapseOne"
-                                            >
-                                                Is porta semper MedService
-                                                primis?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    data-toggle="collapse"
+                                                    href="#collapseOne"
+                                                    role="button"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseOne"
+                                                >
+                                                    Is porta semper MedService
+                                                    primis?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -85,17 +91,22 @@ const FaqsPage = () => {
                                         id="headingTwo"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseTwo"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseTwo"
-                                            >
-                                                How feugiat primis ultrice in
-                                                ligula?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseTwo"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseTwo"
+                                                >
+                                                    How feugiat primis ultrice
+                                                    in ligula?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -132,17 +143,22 @@ const FaqsPage = () => {
                                         id="headingThree"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseThree"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseThree"
-                                            >
-                                                Did donec pretium and MedService
-                                                porta?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseThree"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseThree"
+                                                >
+                                                    Did donec pretium and
+                                                    MedService porta?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -203,16 +219,22 @@ const FaqsPage = () => {
                                         id="headingFour"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseFour"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseFour"
-                                            >
-                                                What is metus mollis faucibus?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseFour"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseFour"
+                                                >
+                                                    What is metus mollis
+                                                    faucibus?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -254,16 +276,21 @@ const FaqsPage = () => {
                                         id="headingFive"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                data-toggle="collapse"
-                                                href="#collapseFive"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseFive"
-                                            >
-                                                How much congue magna nihil
-                                                impedit ligula risus?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    data-toggle="collapse"
+                                                    href="#collapseFive"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseFive"
+                                                >
+                                                    How much congue magna nihil
+                                                    impedit ligula risus?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -299,17 +326,22 @@ const FaqsPage = () => {
                                         id="headingSix"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseSix"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseSix"
-                                            >
-                                                What I congue magna nihil
-                                                convallis porta?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseSix"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseSix"
+                                                >
+                                                    What I congue magna nihil
+                                                    convallis porta?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -344,17 +376,22 @@ const FaqsPage = () => {
                                         id="headingSeven"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseSeven"
-                                                role="button"
-                                                aria-expanded="true"
-                                                aria-controls="collapseSeven"
-                                            >
-                                                Is there a aliquet elementum
-                                                massa?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseSeven"
+                                                    role="button"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseSeven"
+                                                >
+                                                    Is there a aliquet elementum
+                                                    massa?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -403,17 +440,23 @@ const FaqsPage = () => {
                                         id="headingEight"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseEight"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseEight"
-                                            >
-                                                Can I auctor eros dolor luctus
-                                                odio placerat massa magna?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseEight"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseEight"
+                                                >
+                                                    Can I auctor eros dolor
+                                                    luctus odio placerat massa
+                                                    magna?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -450,17 +493,22 @@ const FaqsPage = () => {
                                         id="headingNine"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseNine"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseNine"
-                                            >
-                                                Do you have vehicula magna
-                                                luctus tempor?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseNine"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseNine"
+                                                >
+                                                    Do you have vehicula magna
+                                                    luctus tempor?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -540,15 +588,21 @@ const FaqsPage = () => {
                                         id="headingTen"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                data-toggle="collapse"
-                                                href="#collapseTen"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseTen"
-                                            >
-                                                I have tempor sapien gravida?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    data-toggle="collapse"
+                                                    href="#collapseTen"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseTen"
+                                                >
+                                                    I have tempor sapien
+                                                    gravida?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -587,17 +641,22 @@ const FaqsPage = () => {
                                         id="headingEleven"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseEleven"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseEleven"
-                                            >
-                                                I want molestie bibendum quis,
-                                                aliquet?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseEleven"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseEleven"
+                                                >
+                                                    I want molestie bibendum
+                                                    quis, aliquet?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -645,17 +704,22 @@ const FaqsPage = () => {
                                         id="headingTwelve"
                                     >
                                         <h5 className="h5-xs">
-                                            <a
-                                                className="collapsed"
-                                                data-toggle="collapse"
-                                                href="#collapseTwelve"
-                                                role="button"
-                                                aria-expanded="false"
-                                                aria-controls="collapseTwelve"
-                                            >
-                                                Can I tincidunt tincidunt massa,
-                                                et porttitor?
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="collapsed"
+                                                    data-toggle="collapse"
+                                                    href="#collapseTwelve"
+                                                    role="button"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseTwelve"
+                                                >
+                                                    Can I tincidunt tincidunt
+                                                    massa, et porttitor?
+                                                </a>{" "}
+                                            </Link>
                                         </h5>
                                     </div>
                                     {/* Card Content */}
@@ -733,12 +797,11 @@ const FaqsPage = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* SIDEBAR TABLE */}
@@ -804,12 +867,11 @@ const FaqsPage = () => {
                                 dolor lacinia cursus nulla vitae massa
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover mt-10"
-                            >
-                                View Timetable
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover mt-10">
+                                    View Timetable
+                                </a>
+                            </Link>
                         </div>
                         {/* END SIDEBAR TABLE */}
                     </aside>

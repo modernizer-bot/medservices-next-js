@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo1Hero1 = () => {
@@ -23,12 +24,11 @@ const Demo1Hero1 = () => {
                                 pretium lorem primis in orci integer mollis
                             </p>
                             {/* Button */}
-                            <a
-                                href="about-us.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                More About Clinic
-                            </a>
+                            <Link href="/about-us">
+                                <a className="btn btn-blue blue-hover">
+                                    More About Clinic
+                                </a>
+                            </Link>
                         </div>
                     </div>{" "}
                     {/* END HERO TEXT */}

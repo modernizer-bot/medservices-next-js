@@ -73,9 +73,16 @@ const Footer5 = () => {
                             {/* Email */}
                             <p className="foo-email mt-20">
                                 E:{" "}
-                                <a href="mailto:yourdomain@mail.com">
-                                    hello@yourdomain.com
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        href="mailto:yourdomain@mail.com"
+                                    >
+                                        hello@yourdomain.com
+                                    </a>{" "}
+                                </Link>
                             </p>
                             {/* Phone */}
                             <p>P: +12 9 8765 4321</p>

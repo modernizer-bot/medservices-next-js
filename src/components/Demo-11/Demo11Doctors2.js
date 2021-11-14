@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo11Doctors2 = () => {
@@ -38,13 +39,14 @@ const Demo11Doctors2 = () => {
                                 <div className="item-overlay" />
                                 {/* Profile Link */}
                                 <div className="profile-link">
-                                    <a
-                                        className="btn btn-sm btn-tra-white black-hover"
-                                        href="doctor-1.html"
-                                        title
-                                    >
-                                        View More Info
-                                    </a>
+                                    <Link href="/doctor-1">
+                                        <a
+                                            className="btn btn-sm btn-tra-white black-hover"
+                                            title
+                                        >
+                                            View More Info
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             {/* Doctor Meta */}
@@ -81,13 +83,14 @@ const Demo11Doctors2 = () => {
                                 <div className="item-overlay" />
                                 {/* Profile Link */}
                                 <div className="profile-link">
-                                    <a
-                                        className="btn btn-sm btn-tra-white black-hover"
-                                        href="doctor-2.html"
-                                        title
-                                    >
-                                        View More Info
-                                    </a>
+                                    <Link href="/doctor-2">
+                                        <a
+                                            className="btn btn-sm btn-tra-white black-hover"
+                                            title
+                                        >
+                                            View More Info
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             {/* Doctor Meta */}
@@ -124,13 +127,14 @@ const Demo11Doctors2 = () => {
                                 <div className="item-overlay" />
                                 {/* Profile Link */}
                                 <div className="profile-link">
-                                    <a
-                                        className="btn btn-sm btn-tra-white black-hover"
-                                        href="doctor-1.html"
-                                        title
-                                    >
-                                        View More Info
-                                    </a>
+                                    <Link href="/doctor-1">
+                                        <a
+                                            className="btn btn-sm btn-tra-white black-hover"
+                                            title
+                                        >
+                                            View More Info
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             {/* Doctor Meta */}
@@ -157,12 +161,11 @@ const Demo11Doctors2 = () => {
                             className="all-doctors mb-40  wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a
-                                href="all-doctors.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Meet All Doctors
-                            </a>
+                            <Link href="/all-doctors">
+                                <a className="btn btn-blue blue-hover">
+                                    Meet All Doctors
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

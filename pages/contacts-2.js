@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Contacts2 from "../src/components/Contacts-2/Contacts2";
 import ContactsBanner8 from "../src/components/Contacts-2/ContactsBanner8";
@@ -22,7 +23,9 @@ const contacts2 = () => {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item">
-                                            <a href="demo-1.html">Home</a>
+                                            <Link href="/demo-1">
+                                                <a>Home</a>
+                                            </Link>
                                         </li>
                                         <li
                                             className="breadcrumb-item active"

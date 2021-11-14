@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SinglePostBlogPage = () => {
@@ -301,10 +302,12 @@ const SinglePostBlogPage = () => {
                                             <div className="blog-post-txt">
                                                 {/* Post Title */}
                                                 <h5 className="h5-sm steelblue-color">
-                                                    <a href="single-post.html">
-                                                        Your Health Is In Your
-                                                        Hands
-                                                    </a>
+                                                    <Link href="/single-post">
+                                                        <a>
+                                                            Your Health Is In
+                                                            Your Hands
+                                                        </a>
+                                                    </Link>
                                                 </h5>
                                                 {/* Post Data */}
                                                 <span>
@@ -341,10 +344,13 @@ const SinglePostBlogPage = () => {
                                             <div className="blog-post-txt">
                                                 {/* Post Title */}
                                                 <h5 className="h5-sm steelblue-color">
-                                                    <a href="single-post.html">
-                                                        How Weather Impacts Your
-                                                        Health
-                                                    </a>
+                                                    <Link href="/single-post">
+                                                        {" "}
+                                                        <a>
+                                                            How Weather Impacts
+                                                            Your Health
+                                                        </a>
+                                                    </Link>
                                                 </h5>
                                                 {/* Post Data */}
                                                 <span>
@@ -394,13 +400,18 @@ const SinglePostBlogPage = () => {
                                                 April 20, 2019 at 7:14 PM -
                                             </span>
                                             <span className="btn-reply">
-                                                <a
-                                                    href="#leave-comment"
-                                                    className="internal-link"
-                                                >
-                                                    <i className="fas fa-reply" />
-                                                    Reply
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        href="#leave-comment"
+                                                        className="internal-link"
+                                                    >
+                                                        <i className="fas fa-reply" />
+                                                        Reply
+                                                    </a>{" "}
+                                                </Link>
                                             </span>
                                         </div>
                                         {/* Comment-1 Text */}
@@ -437,13 +448,20 @@ const SinglePostBlogPage = () => {
                                                         PM -
                                                     </span>
                                                     <span className="btn-reply">
-                                                        <a
-                                                            href="#leave-comment"
-                                                            className="internal-link"
-                                                        >
-                                                            <i className="fas fa-reply" />
-                                                            Reply
-                                                        </a>
+                                                        <Link href="#">
+                                                            <a
+                                                                onClick={(
+                                                                    e
+                                                                ) => {
+                                                                    e.preventDefault();
+                                                                }}
+                                                                href="#leave-comment"
+                                                                className="internal-link"
+                                                            >
+                                                                <i className="fas fa-reply" />
+                                                                Reply
+                                                            </a>{" "}
+                                                        </Link>
                                                     </span>
                                                 </div>
                                                 {/* Comment-2 Text */}
@@ -482,13 +500,18 @@ const SinglePostBlogPage = () => {
                                                 April 29, 2018 at 5:41 PM -
                                             </span>
                                             <span className="btn-reply">
-                                                <a
-                                                    href="#leave-comment"
-                                                    className="internal-link"
-                                                >
-                                                    <i className="fas fa-reply" />
-                                                    Reply
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        href="#leave-comment"
+                                                        className="internal-link"
+                                                    >
+                                                        <i className="fas fa-reply" />
+                                                        Reply
+                                                    </a>{" "}
+                                                </Link>
                                             </span>
                                         </div>
                                         {/* Comment-4 Text */}
@@ -528,13 +551,18 @@ const SinglePostBlogPage = () => {
                                                 June 11, 2018 at 11:19 AM -
                                             </span>
                                             <span className="btn-reply">
-                                                <a
-                                                    href="#leave-comment"
-                                                    className="internal-link"
-                                                >
-                                                    <i className="fas fa-reply" />
-                                                    Reply
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        href="#leave-comment"
+                                                        className="internal-link"
+                                                    >
+                                                        <i className="fas fa-reply" />
+                                                        Reply
+                                                    </a>{" "}
+                                                </Link>
                                             </span>
                                         </div>
                                         {/* Comment-4 Text */}
@@ -677,12 +705,11 @@ const SinglePostBlogPage = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* BLOG CATEGORIES */}
@@ -746,10 +773,12 @@ const SinglePostBlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Etiam sapien accumsan molestie ante
-                                            empor ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Etiam sapien accumsan molestie
+                                                ante empor ...
+                                            </a>
+                                        </Link>
                                         <p>43 Comments</p>
                                     </div>
                                 </li>
@@ -763,10 +792,12 @@ const SinglePostBlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Blandit tempor sapien ipsum, porta
-                                            justo ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Blandit tempor sapien ipsum,
+                                                porta justo ...
+                                            </a>
+                                        </Link>
                                         <p>38 Comments</p>
                                     </div>
                                 </li>
@@ -780,10 +811,12 @@ const SinglePostBlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Cursus risus laoreet turpis auctor
-                                            varius ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Cursus risus laoreet turpis
+                                                auctor varius ...
+                                            </a>
+                                        </Link>
                                         <p>29 Comments</p>
                                     </div>
                                 </li>
@@ -833,12 +866,11 @@ const SinglePostBlogPage = () => {
                                 dolor lacinia cursus nulla vitae massa
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover mt-10"
-                            >
-                                View Timetable
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover mt-10">
+                                    View Timetable
+                                </a>
+                            </Link>
                         </div>
                         {/* END SIDEBAR TIMETABLE */}
                         {/* IMAGE WIDGET */}

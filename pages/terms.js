@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import TermsPage from "../src/components/Terms/TermsPage";
 import Footer4 from "../src/layout/Footer/Footer4";
@@ -21,7 +22,9 @@ const terms = () => {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item">
-                                            <a href="demo-1.html">Home</a>
+                                            <Link href="/demo-1">
+                                                <a>Home</a>
+                                            </Link>
                                         </li>
                                         <li
                                             className="breadcrumb-item active"

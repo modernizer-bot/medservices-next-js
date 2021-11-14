@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo9Hero9 = () => {
@@ -40,12 +41,11 @@ const Demo9Hero9 = () => {
                                                 mollis and pretium purus pretium
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="about-us.html"
-                                                className="btn btn-blue blue-hover"
-                                            >
-                                                More About Clinic
-                                            </a>
+                                            <Link href="/about-us">
+                                                <a className="btn btn-blue blue-hover">
+                                                    More About Clinic
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -83,18 +83,16 @@ const Demo9Hero9 = () => {
                                                 mollis and pretium purus pretium
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="who-we-are.html"
-                                                className="btn btn-black tra-black-hover mr-10"
-                                            >
-                                                Get More Info
-                                            </a>
-                                            <a
-                                                href="all-services.html"
-                                                className="btn btn-blue blue-hover"
-                                            >
-                                                Our Core Services
-                                            </a>
+                                            <Link href="/who-we-are">
+                                                <a className="btn btn-black tra-black-hover mr-10">
+                                                    Get More Info
+                                                </a>
+                                            </Link>
+                                            <Link href="/all-services">
+                                                <a className="btn btn-blue blue-hover">
+                                                    Our Core Services
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -169,28 +167,39 @@ const Demo9Hero9 = () => {
                 {/* END SLIDER CONTENT */}
                 {/* SLIDER NAVIGATION */}
                 <div className="carousel-nav white-nav">
-                    <a
-                        className="carousel-control-prev"
-                        href="#heroCarousel"
-                        role="button"
-                        data-slide="prev"
-                    >
-                        <span
-                            className="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        />
-                    </a>
-                    <a
-                        className="carousel-control-next"
-                        href="#heroCarousel"
-                        role="button"
-                        data-slide="next"
-                    >
-                        <span
-                            className="carousel-control-next-icon"
-                            aria-hidden="true"
-                        />
-                    </a>
+                    <Link href="#">
+                        <a
+                            onClick={(e) => {
+                                e.preventDefault();
+                            }}
+                            className="carousel-control-prev"
+                            href="#heroCarousel"
+                            role="button"
+                            data-slide="prev"
+                        >
+                            <span
+                                className="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            />
+                        </a>{" "}
+                    </Link>
+                    <Link href="#">
+                        {" "}
+                        <a
+                            onClick={(e) => {
+                                e.preventDefault();
+                            }}
+                            className="carousel-control-next"
+                            href="#heroCarousel"
+                            role="button"
+                            data-slide="next"
+                        >
+                            <span
+                                className="carousel-control-next-icon"
+                                aria-hidden="true"
+                            />
+                        </a>{" "}
+                    </Link>
                 </div>
             </div>
         </section>

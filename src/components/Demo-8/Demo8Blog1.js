@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo8Blog1 = () => {
@@ -43,9 +44,11 @@ const Demo8Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        5 Benefits Of Integrative Medicine
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>
+                                            5 Benefits Of Integrative Medicine
+                                        </a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>
@@ -82,9 +85,9 @@ const Demo8Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        Your Health Is In Your Hands
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>Your Health Is In Your Hands</a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>
@@ -121,9 +124,9 @@ const Demo8Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        How Weather Impacts Your Health
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>How Weather Impacts Your Health</a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>
@@ -151,12 +154,11 @@ const Demo8Blog1 = () => {
                             className="all-posts-btn mb-40 wow fadeInUp"
                             data-wow-delay="1s"
                         >
-                            <a
-                                href="blog-listing.html"
-                                className="btn btn-lime black-hover"
-                            >
-                                Read More Posts
-                            </a>
+                            <Link href="/blog-listing">
+                                <a className="btn btn-lime black-hover">
+                                    Read More Posts
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

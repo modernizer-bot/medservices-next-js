@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo10Services4 = () => {
@@ -35,9 +36,9 @@ const Demo10Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Eye Examination
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Eye Examination</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -62,9 +63,9 @@ const Demo10Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Laser Eye Correction
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Laser Eye Correction</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -89,9 +90,9 @@ const Demo10Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Contact Lenses
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Contact Lenses</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -116,9 +117,9 @@ const Demo10Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Kids Diagnostic
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Kids Diagnostic</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis

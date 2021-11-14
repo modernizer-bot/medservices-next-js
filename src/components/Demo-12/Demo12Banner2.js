@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo12Banner2 = () => {
@@ -39,12 +40,11 @@ const Demo12Banner2 = () => {
                                     Aliquam a augue suscipit
                                 </p>
                                 {/* Button */}
-                                <a
-                                    href="all-doctors.html"
-                                    className="btn btn-tra-white blue-hover"
-                                >
-                                    View Our Doctors
-                                </a>
+                                <Link href="/all-doctors">
+                                    <a className="btn btn-tra-white blue-hover">
+                                        View Our Doctors
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         {/* END BANNER TEXT */}

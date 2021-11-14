@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Doctor1Details = () => {
@@ -62,28 +63,31 @@ const Doctor1Details = () => {
                                 </h4>
                                 <h4 className="h4-xs blue-color">
                                     <i className="fas fa-envelope-open-text" />
-                                    <a
-                                        href="mailto:yourdomain@mail.com"
-                                        className="blue-color"
-                                    >
-                                        hello@yourdomain.com
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            href="mailto:yourdomain@mail.com"
+                                            className="blue-color"
+                                        >
+                                            hello@yourdomain.com
+                                        </a>{" "}
+                                    </Link>
                                 </h4>
                             </div>
                             {/* Buttons */}
                             <div className="doctor-photo-btn text-center">
-                                <a
-                                    href="appointment.html"
-                                    className="btn btn-md btn-blue blue-hover"
-                                >
-                                    Book an Appointment
-                                </a>
-                                <a
-                                    href="timetable.html"
-                                    className="btn btn-md btn-tra-grey grey-hover"
-                                >
-                                    View Timetable
-                                </a>
+                                <Link href="/appointment">
+                                    <a className="btn btn-md btn-blue blue-hover">
+                                        Book an Appointment
+                                    </a>
+                                </Link>
+                                <Link href="/timetable">
+                                    <a className="btn btn-md btn-tra-grey grey-hover">
+                                        View Timetable
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -175,81 +179,106 @@ const Doctor1Details = () => {
                                     {/* Certificate Image */}
                                     <div className="col-sm-6 col-lg-4">
                                         <div className="certificate-image">
-                                            <a
-                                                className="image-link"
-                                                href="images/certificate-1.png"
-                                                title
-                                            >
-                                                <img
-                                                    className="img-fluid"
-                                                    src="images/certificate-1.png"
-                                                    alt="certificate-image"
-                                                />
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="image-link"
+                                                    href="images/certificate-1.png"
+                                                    title
+                                                >
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="images/certificate-1.png"
+                                                        alt="certificate-image"
+                                                    />
+                                                </a>{" "}
+                                            </Link>
                                         </div>
                                     </div>
                                     {/* Certificate Image */}
                                     <div className="col-sm-6 col-lg-4">
                                         <div className="certificate-image">
-                                            <a
-                                                className="image-link"
-                                                href="images/certificate-2.png"
-                                                title
-                                            >
-                                                <img
-                                                    className="img-fluid"
-                                                    src="images/certificate-2.png"
-                                                    alt="certificate-image"
-                                                />
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="image-link"
+                                                    href="images/certificate-2.png"
+                                                    title
+                                                >
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="images/certificate-2.png"
+                                                        alt="certificate-image"
+                                                    />
+                                                </a>{" "}
+                                            </Link>
                                         </div>
                                     </div>
                                     {/* Certificate Image */}
                                     <div className="col-sm-6 col-lg-4">
                                         <div className="certificate-image">
-                                            <a
-                                                className="image-link"
-                                                href="images/certificate-3.png"
-                                                title
-                                            >
-                                                <img
-                                                    className="img-fluid"
-                                                    src="images/certificate-3.png"
-                                                    alt="certificate-image"
-                                                />
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="image-link"
+                                                    href="images/certificate-3.png"
+                                                    title
+                                                >
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="images/certificate-3.png"
+                                                        alt="certificate-image"
+                                                    />
+                                                </a>{" "}
+                                            </Link>
                                         </div>
                                     </div>
                                     {/* Certificate Image */}
                                     <div className="col-sm-6 col-lg-4">
                                         <div className="certificate-image">
-                                            <a
-                                                className="image-link"
-                                                href="images/certificate-4.png"
-                                                title
-                                            >
-                                                <img
-                                                    className="img-fluid"
-                                                    src="images/certificate-4.png"
-                                                    alt="certificate-image"
-                                                />
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="image-link"
+                                                    href="images/certificate-4.png"
+                                                    title
+                                                >
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="images/certificate-4.png"
+                                                        alt="certificate-image"
+                                                    />
+                                                </a>{" "}
+                                            </Link>
                                         </div>
                                     </div>
                                     {/* Certificate Image */}
                                     <div className="col-sm-6 col-lg-4">
                                         <div className="certificate-image">
-                                            <a
-                                                className="image-link"
-                                                href="images/certificate-5.png"
-                                                title
-                                            >
-                                                <img
-                                                    className="img-fluid"
-                                                    src="images/certificate-5.png"
-                                                    alt="certificate-image"
-                                                />
-                                            </a>
+                                            <Link href="#">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="image-link"
+                                                    href="images/certificate-5.png"
+                                                    title
+                                                >
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="images/certificate-5.png"
+                                                        alt="certificate-image"
+                                                    />
+                                                </a>{" "}
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

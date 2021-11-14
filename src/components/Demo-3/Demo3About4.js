@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo3About4 = () => {
@@ -21,9 +22,9 @@ const Demo3About4 = () => {
                             <div className="abox-4-txt">
                                 {/* Title */}
                                 <h5 className="h5-xs steelblue-color">
-                                    <a href="all-services.html">
-                                        Highest Quality Care
-                                    </a>
+                                    <Link href="/all-services">
+                                        <a>Highest Quality Care</a>
+                                    </Link>
                                 </h5>
                                 {/* Text */}
                                 <p>
@@ -51,9 +52,9 @@ const Demo3About4 = () => {
                             <div className="abox-4-txt">
                                 {/* Title */}
                                 <h5 className="h5-xs steelblue-color">
-                                    <a href="all-services.html">
-                                        Emergency Department
-                                    </a>
+                                    <Link href="/all-services">
+                                        <a>Emergency Department</a>
+                                    </Link>
                                 </h5>
                                 {/* Text */}
                                 <p>

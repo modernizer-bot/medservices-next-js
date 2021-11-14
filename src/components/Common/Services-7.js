@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Services7 = () => {
@@ -17,23 +18,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="0.4s"
                                 >
-                                    <a href="service-1.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-137-doctor blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Top Level Doctors
-                                            </h5>
+                                    <Link href="/service-1">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-137-doctor blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Top Level Doctors
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #1 */}
@@ -43,23 +47,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="0.6s"
                                 >
-                                    <a href="service-2.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-076-microscope blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Modern Equipment
-                                            </h5>
+                                    <Link href="/service-2">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-076-microscope blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Modern Equipment
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #2 */}
@@ -69,23 +76,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="0.8s"
                                 >
-                                    <a href="service-1.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-065-hospital-bed blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Qualified Facilities
-                                            </h5>
+                                    <Link href="/service-1">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-065-hospital-bed blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Qualified Facilities
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #3*/}
@@ -95,23 +105,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="1s"
                                 >
-                                    <a href="service-2.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-058-blood-transfusion-2 blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Professional Services
-                                            </h5>
+                                    <Link href="/service-2">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-058-blood-transfusion-2 blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Professional Services
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #4 */}
@@ -121,23 +134,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="1.2s"
                                 >
-                                    <a href="service-1.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-141-clinic-history blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Medical Counseling
-                                            </h5>
+                                    <Link href="/service-1">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-141-clinic-history blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Medical Counseling
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #5 */}
@@ -147,23 +163,26 @@ const Services7 = () => {
                                     className="sbox-7 icon-xs wow fadeInUp"
                                     data-wow-delay="1.4s"
                                 >
-                                    <a href="service-2.html">
-                                        {/* Icon */}
-                                        <span className="flaticon-008-ambulance-6 blue-color" />
-                                        {/* Text */}
-                                        <div className="sbox-7-txt">
-                                            {/* Title */}
-                                            <h5 className="h5-sm steelblue-color">
-                                                Emergency Help
-                                            </h5>
+                                    <Link href="/service-2">
+                                        <a>
+                                            {/* Icon */}
+                                            <span className="flaticon-008-ambulance-6 blue-color" />
                                             {/* Text */}
-                                            <p className="p-sm">
-                                                Porta semper lacus at cursus
-                                                primis ultrice in ligula risus
-                                                an auctor tempus feugiat dolor
-                                            </p>
-                                        </div>
-                                    </a>
+                                            <div className="sbox-7-txt">
+                                                {/* Title */}
+                                                <h5 className="h5-sm steelblue-color">
+                                                    Emergency Help
+                                                </h5>
+                                                {/* Text */}
+                                                <p className="p-sm">
+                                                    Porta semper lacus at cursus
+                                                    primis ultrice in ligula
+                                                    risus an auctor tempus
+                                                    feugiat dolor
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>{" "}
                             {/* END SERVICE BOX #6 */}

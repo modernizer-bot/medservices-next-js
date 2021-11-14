@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Contacts2 = () => {
@@ -33,12 +34,17 @@ const Contacts2 = () => {
                                     <p>Phone: 1-(800)-569-7890</p>
                                     <p>
                                         Email:
-                                        <a
-                                            href="mailto:yourdomain@mail.com"
-                                            className="blue-color"
-                                        >
-                                            hello@yourdomain.com
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="mailto:yourdomain@mail.com"
+                                                className="blue-color"
+                                            >
+                                                hello@yourdomain.com
+                                            </a>{" "}
+                                        </Link>
                                     </p>
                                 </div>
                             </div>
@@ -54,12 +60,17 @@ const Contacts2 = () => {
                                     <p>Phone: 1-(800)-569-7890</p>
                                     <p>
                                         Email:
-                                        <a
-                                            href="mailto:yourdomain@mail.com"
-                                            className="blue-color"
-                                        >
-                                            hello@yourdomain.com
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="mailto:yourdomain@mail.com"
+                                                className="blue-color"
+                                            >
+                                                hello@yourdomain.com
+                                            </a>{" "}
+                                        </Link>
                                     </p>
                                 </div>
                             </div>
@@ -75,12 +86,17 @@ const Contacts2 = () => {
                                     <p>Phone: 1-(800)-569-7890</p>
                                     <p>
                                         Email:
-                                        <a
-                                            href="mailto:yourdomain@mail.com"
-                                            className="blue-color"
-                                        >
-                                            hello@yourdomain.com
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="mailto:yourdomain@mail.com"
+                                                className="blue-color"
+                                            >
+                                                hello@yourdomain.com
+                                            </a>{" "}
+                                        </Link>
                                     </p>
                                 </div>
                             </div>
@@ -96,12 +112,17 @@ const Contacts2 = () => {
                                     <p>Phone: 1-(800)-569-7890</p>
                                     <p>
                                         Email:
-                                        <a
-                                            href="mailto:yourdomain@mail.com"
-                                            className="blue-color"
-                                        >
-                                            hello@yourdomain.com
-                                        </a>
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="mailto:yourdomain@mail.com"
+                                                className="blue-color"
+                                            >
+                                                hello@yourdomain.com
+                                            </a>{" "}
+                                        </Link>
                                     </p>
                                 </div>
                             </div>

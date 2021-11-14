@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllFooter1 = () => {
@@ -71,9 +72,16 @@ const AllFooter1 = () => {
                             {/* Email */}
                             <p className="foo-email mt-20">
                                 E:
-                                <a href="mailto:yourdomain@mail.com">
-                                    hello@yourdomain.com
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        href="mailto:yourdomain@mail.com"
+                                    >
+                                        hello@yourdomain.com
+                                    </a>{" "}
+                                </Link>
                             </p>
                             {/* Phone */}
                             <p>P: +12 9 8765 4321</p>

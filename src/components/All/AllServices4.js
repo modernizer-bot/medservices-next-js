@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllServices4 = () => {
@@ -35,9 +36,9 @@ const AllServices4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Qualified Doctors
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Qualified Doctors</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -62,9 +63,9 @@ const AllServices4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Modern Equipments
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Modern Equipments</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -89,9 +90,9 @@ const AllServices4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Healthcare for Kids
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Healthcare for Kids</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -116,9 +117,9 @@ const AllServices4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md steelblue-color">
-                                    <a href="single-service.html">
-                                        Emergency Help
-                                    </a>
+                                    <Link href="/single-service">
+                                        <a>Emergency Help</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis

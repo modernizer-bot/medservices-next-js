@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllDoctorsDoctors3 = () => {
@@ -26,13 +27,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Chief Medical Officer</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-1.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-1">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -55,13 +57,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Anesthesiologist</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-2.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-2">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -84,13 +87,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Cardiology</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-1.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-1">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -113,13 +117,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Neurosurgeon</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-2.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-2">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -142,13 +147,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Allergist</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-1.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-1">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -171,13 +177,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Orthopaedics</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-2.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-2">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -200,13 +207,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Cardiology</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-1.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-1">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -229,13 +237,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Chief Medical Officer</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-2.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-2">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -258,13 +267,14 @@ const AllDoctorsDoctors3 = () => {
                                 </h5>
                                 <span>Anesthesiologist</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-1.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-1">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

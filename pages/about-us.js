@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import AboutUsInfo4 from "../src/components/About-us/AboutUsInfo4";
 import AboutUsVideo2 from "../src/components/About-us/AboutUsVideo2";
@@ -25,7 +26,9 @@ const aboutUs = () => {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item">
-                                            <a href="demo-1.html">Home</a>
+                                            <Link href="/demo-1">
+                                                <a>Home</a>
+                                            </Link>
                                         </li>
                                         <li
                                             className="breadcrumb-item active"

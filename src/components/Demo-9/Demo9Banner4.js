@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo9Banner4 = () => {
@@ -24,12 +25,16 @@ const Demo9Banner4 = () => {
                                 luctus
                             </p>
                             {/* Button */}
-                            <a
-                                href="#"
-                                className="btn btn-blue blue-hover mt-20"
-                            >
-                                Make An Apointment
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="btn btn-blue blue-hover mt-20"
+                                >
+                                    Make An Apointment
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AllDoctors3 = () => {
@@ -42,13 +43,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Chief Medical Officer</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -71,13 +73,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Anesthesiologist</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -100,13 +103,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Cardiology</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -129,13 +133,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Neurosurgeon</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -158,13 +163,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Allergist</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -187,13 +193,14 @@ const AllDoctors3 = () => {
                                 </h5>
                                 <span>Orthopaedics</span>
                                 {/* Button */}
-                                <a
-                                    className="btn btn-sm btn-blue blue-hover mt-15"
-                                    href="doctor-details.html"
-                                    title
-                                >
-                                    View More Info
-                                </a>
+                                <Link href="/doctor-details">
+                                    <a
+                                        className="btn btn-sm btn-blue blue-hover mt-15"
+                                        title
+                                    >
+                                        View More Info
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo4Video2 = () => {
@@ -12,23 +13,28 @@ const Demo4Video2 = () => {
                             data-wow-delay="0.6s"
                         >
                             {/* Change the link HERE!!! */}
-                            <a
-                                className="video-popup1"
-                                href="https://www.youtube.com/embed/SZEflIVnhH8"
-                            >
-                                {/* Play Icon */}
-                                <div className="video-btn play-icon-blue">
-                                    <div className="video-block-wrapper">
-                                        <i className="fas fa-play" />
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="video-popup1"
+                                    href="https://www.youtube.com/embed/SZEflIVnhH8"
+                                >
+                                    {/* Play Icon */}
+                                    <div className="video-btn play-icon-blue">
+                                        <div className="video-block-wrapper">
+                                            <i className="fas fa-play" />
+                                        </div>
                                     </div>
-                                </div>
-                                {/* Preview */}
-                                <img
-                                    className="img-fluid"
-                                    src="images/video-1.png"
-                                    alt="video-photo"
-                                />
-                            </a>
+                                    {/* Preview */}
+                                    <img
+                                        className="img-fluid"
+                                        src="images/video-1.png"
+                                        alt="video-photo"
+                                    />
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                     {/* END VIDEO LINK */}

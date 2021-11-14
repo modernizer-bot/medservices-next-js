@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo5Blog1 = () => {
@@ -39,9 +40,11 @@ const Demo5Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        5 Benefits Of Integrative Medicine
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>
+                                            5 Benefits Of Integrative Medicine
+                                        </a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>
@@ -76,9 +79,9 @@ const Demo5Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        Your Health Is In Your Hands
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>Your Health Is In Your Hands</a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>
@@ -113,9 +116,9 @@ const Demo5Blog1 = () => {
                             <div className="blog-post-txt">
                                 {/* Post Title */}
                                 <h5 className="h5-sm steelblue-color">
-                                    <a href="single-post.html">
-                                        How Weather Impacts Your Health
-                                    </a>
+                                    <Link href="/single-post">
+                                        <a>How Weather Impacts Your Health</a>
+                                    </Link>
                                 </h5>
                                 {/* Post Data */}
                                 <span>

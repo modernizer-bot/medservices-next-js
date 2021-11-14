@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogPage = () => {
@@ -22,9 +23,12 @@ const BlogPage = () => {
                                 <div className="blog-post-txt">
                                     {/* Post Title */}
                                     <h5 className="h5-xl steelblue-color">
-                                        <a href="single-post.html">
-                                            5 Benefits Of Integrative Medicine
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                5 Benefits Of Integrative
+                                                Medicine
+                                            </a>
+                                        </Link>
                                     </h5>
                                     {/* Post Data */}
                                     <span>
@@ -49,32 +53,39 @@ const BlogPage = () => {
                                 <div className="blog-post-img">
                                     <div className="video-preview text-center">
                                         {/* Change the link HERE!!! */}
-                                        <a
-                                            className="video-popup1"
-                                            href="https://www.youtube.com/embed/SZEflIVnhH8"
-                                        >
-                                            {/* Play Icon */}
-                                            <div className="video-btn play-icon-blue">
-                                                <div className="video-block-wrapper">
-                                                    <i className="fas fa-play" />
+                                        <Link href="#">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="video-popup1"
+                                                href="https://www.youtube.com/embed/SZEflIVnhH8"
+                                            >
+                                                {/* Play Icon */}
+                                                <div className="video-btn play-icon-blue">
+                                                    <div className="video-block-wrapper">
+                                                        <i className="fas fa-play" />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            {/* Preview Image */}
-                                            <img
-                                                className="img-fluid"
-                                                src="images/blog/post-5-img.jpg"
-                                                alt="blog-post-image"
-                                            />
-                                        </a>
+                                                {/* Preview Image */}
+                                                <img
+                                                    className="img-fluid"
+                                                    src="images/blog/post-5-img.jpg"
+                                                    alt="blog-post-image"
+                                                />
+                                            </a>{" "}
+                                        </Link>
                                     </div>
                                 </div>
                                 {/* BLOG POST TEXT */}
                                 <div className="blog-post-txt">
                                     {/* Post Title */}
                                     <h5 className="h5-xl steelblue-color">
-                                        <a href="single-post.html">
-                                            How Weather Impacts Your Health
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                How Weather Impacts Your Health
+                                            </a>
+                                        </Link>
                                     </h5>
                                     {/* Post Data */}
                                     <span>
@@ -109,9 +120,9 @@ const BlogPage = () => {
                                 <div className="blog-post-txt">
                                     {/* Post Title */}
                                     <h5 className="h5-xl steelblue-color">
-                                        <a href="single-post.html">
-                                            Your Health Is In Your Hands
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>Your Health Is In Your Hands</a>
+                                        </Link>
                                     </h5>
                                     {/* Post Data */}
                                     <span>
@@ -150,11 +161,13 @@ const BlogPage = () => {
                                 <div className="blog-post-txt">
                                     {/* Post Title */}
                                     <h5 className="h5-xl steelblue-color">
-                                        <a href="single-post.html">
-                                            20 Years of Caring. 15 Fact About
-                                            MedService, Melbourne's First Choice
-                                            for Healthcare
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                20 Years of Caring. 15 Fact
+                                                About MedService, Melbourne's
+                                                First Choice for Healthcare
+                                            </a>
+                                        </Link>
                                     </h5>
                                     {/* Post Data */}
                                     <span>
@@ -271,12 +284,11 @@ const BlogPage = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* BLOG CATEGORIES */}
@@ -340,10 +352,12 @@ const BlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Etiam sapien accumsan molestie ante
-                                            empor ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Etiam sapien accumsan molestie
+                                                ante empor ...
+                                            </a>
+                                        </Link>
                                         <p>43 Comments</p>
                                     </div>
                                 </li>
@@ -357,10 +371,12 @@ const BlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Blandit tempor sapien ipsum, porta
-                                            justo ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Blandit tempor sapien ipsum,
+                                                porta justo ...
+                                            </a>
+                                        </Link>
                                         <p>38 Comments</p>
                                     </div>
                                 </li>
@@ -374,10 +390,12 @@ const BlogPage = () => {
                                     />
                                     {/* Text */}
                                     <div className="post-summary">
-                                        <a href="single-post.html">
-                                            Cursus risus laoreet turpis auctor
-                                            varius ...
-                                        </a>
+                                        <Link href="/single-post">
+                                            <a>
+                                                Cursus risus laoreet turpis
+                                                auctor varius ...
+                                            </a>
+                                        </Link>
                                         <p>29 Comments</p>
                                     </div>
                                 </li>
@@ -427,12 +445,11 @@ const BlogPage = () => {
                                 dolor lacinia cursus nulla vitae massa
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover mt-10"
-                            >
-                                View Timetable
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover mt-10">
+                                    View Timetable
+                                </a>
+                            </Link>
                         </div>
                         {/* END SIDEBAR TIMETABLE */}
                         {/* IMAGE WIDGET */}

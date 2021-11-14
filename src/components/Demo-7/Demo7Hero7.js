@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo7Hero7 = () => {
@@ -93,12 +94,11 @@ const Demo7Hero7 = () => {
                                                 orci integer
                                             </p>
                                             {/* Button */}
-                                            <a
-                                                href="all-doctors.html"
-                                                className="btn btn-blue blue-hover"
-                                            >
-                                                Meet the Doctors
-                                            </a>
+                                            <Link href="/all-doctors">
+                                                <a className="btn btn-blue blue-hover">
+                                                    Meet the Doctors
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -156,12 +156,11 @@ const Demo7Hero7 = () => {
                                                 </p>
                                             </div>
                                             {/* Button */}
-                                            <a
-                                                href="who-we-are.html"
-                                                className="btn btn-blue blue-hover"
-                                            >
-                                                Discover More
-                                            </a>
+                                            <Link href="/who-we-are">
+                                                <a className="btn btn-blue blue-hover">
+                                                    Discover More
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

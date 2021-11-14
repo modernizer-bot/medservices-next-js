@@ -5,9 +5,17 @@ const Header6 = () => {
         <header id="header" className="header">
             {/* MOBILE HEADER */}
             <div className="wsmobileheader clearfix">
-                <a id="wsnavtoggle" className="wsanimated-arrow">
-                    <span />
-                </a>
+                <Link href="#">
+                    <a
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
+                        id="wsnavtoggle"
+                        className="wsanimated-arrow"
+                    >
+                        <span />
+                    </a>{" "}
+                </Link>
                 <span className="smllogo">
                     <img
                         src="images/logo.png"
@@ -16,9 +24,17 @@ const Header6 = () => {
                         alt="mobile-logo"
                     />
                 </span>
-                <a href="tel:123456789" className="callusbtn">
-                    <i className="fas fa-phone" />
-                </a>
+                <Link href="#">
+                    <a
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
+                        href="tel:123456789"
+                        className="callusbtn"
+                    >
+                        <i className="fas fa-phone" />
+                    </a>{" "}
+                </Link>
             </div>
             {/* HEADER STRIP */}
             <div className="headtoppart bg-lightgrey clearfix">
@@ -30,10 +46,18 @@ const Header6 = () => {
                                 <i className="fas fa-map-marker-alt" />
                                 121 King St, Melbourne, VIC 3000{" "}
                             </span>{" "}
-                            <a href="tel:123456789" className="callusbtn">
-                                <i className="fas fa-phone" />
-                                (800)-569-7890
-                            </a>
+                            <Link href="#">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    href="tel:123456789"
+                                    className="callusbtn"
+                                >
+                                    <i className="fas fa-phone" />
+                                    (800)-569-7890
+                                </a>{" "}
+                            </Link>
                         </div>
                     </div>
                     {/* Social Links */}
@@ -88,54 +112,54 @@ const Header6 = () => {
                                         </a>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-2.html">
-                                            Home Concept #2
-                                        </a>
+                                        <Link href="/demo-2">
+                                            <a>Home Concept #2</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-3.html">
-                                            Home Concept #3
-                                        </a>
+                                        <Link href="/demo-3">
+                                            <a>Home Concept #3</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-4.html">
-                                            Home Concept #4
-                                        </a>
+                                        <Link href="/demo-4">
+                                            <a>Home Concept #4</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-5.html">
-                                            Home Concept #5
-                                        </a>
+                                        <Link href="/demo-5">
+                                            <a>Home Concept #5</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-6.html">
-                                            Home Concept #6
-                                        </a>
+                                        <Link href="/demo-6">
+                                            <a>Home Concept #6</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-7.html">
-                                            Home Concept #7
-                                        </a>
+                                        <Link href="/demo-7">
+                                            <a>Home Concept #7</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-8.html">
-                                            Home Concept #8
-                                        </a>
+                                        <Link href="/demo-8">
+                                            <a>Home Concept #8</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-9.html">
-                                            Home Concept #9
-                                        </a>
+                                        <Link href="/demo-9">
+                                            <a>Home Concept #9</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-10.html">
-                                            Home Concept #10
-                                        </a>
+                                        <Link href="/demo-10">
+                                            <a>Home Concept #10</a>
+                                        </Link>
                                     </li>
                                     <li aria-haspopup="true">
-                                        <a href="demo-12.html">
-                                            Home Concept #12
-                                        </a>
+                                        <Link href="/demo-12">
+                                            <a>Home Concept #12</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>{" "}
@@ -154,29 +178,29 @@ const Header6 = () => {
                                                     Standard Pages:
                                                 </li>
                                                 <li>
-                                                    <a href="about-us.html">
-                                                        About Us Page
-                                                    </a>
+                                                    <Link href="/about-us">
+                                                        <a>About Us Page</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="who-we-are.html">
-                                                        Who We Are
-                                                    </a>
+                                                    <Link href="/who-we-are">
+                                                        <a>Who We Are</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="all-services.html">
-                                                        Our Services
-                                                    </a>
+                                                    <Link href="/all-services">
+                                                        <a>Our Services</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="service-1.html">
-                                                        Service Single #1
-                                                    </a>
+                                                    <Link href="/service-1">
+                                                        <a>Service Single #1</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="service-2.html">
-                                                        Service Single #2
-                                                    </a>
+                                                    <Link href="/service-2">
+                                                        <a>Service Single #2</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                             {/* MEGAMENU LINKS */}
@@ -185,34 +209,38 @@ const Header6 = () => {
                                                     Medical Pages:
                                                 </li>
                                                 <li>
-                                                    <a href="all-departments.html">
-                                                        Our Departments
-                                                    </a>
+                                                    <Link href="/all-departments">
+                                                        <a>Our Departments</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="department-single.html">
-                                                        Department Single
-                                                    </a>
+                                                    <Link href="/department-single">
+                                                        <a>Department Single</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="all-doctors.html">
-                                                        Meet the Doctors
-                                                    </a>
+                                                    <Link href="/all-doctors">
+                                                        <a>Meet the Doctors</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="doctor-1.html">
-                                                        Doctor's Profile #1
-                                                    </a>
+                                                    <Link href="/doctor-1">
+                                                        <a>
+                                                            Doctor's Profile #1
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="doctor-2.html">
-                                                        Doctor's Profile #2
-                                                    </a>
+                                                    <Link href="/doctor-2">
+                                                        <a>
+                                                            Doctor's Profile #2
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="timetable.html">
-                                                        Doctors Timetable
-                                                    </a>
+                                                    <Link href="/timetable">
+                                                        <a>Doctors Timetable</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                             {/* MEGAMENU LINKS */}
@@ -221,29 +249,35 @@ const Header6 = () => {
                                                     Special Pages:
                                                 </li>
                                                 <li>
-                                                    <a href="pricing-1.html">
-                                                        Pricing Packages #1
-                                                    </a>
+                                                    <Link href="/pricing-1">
+                                                        <a>
+                                                            Pricing Packages #1
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="pricing-2.html">
-                                                        Pricing Packages #2
-                                                    </a>
+                                                    <Link href="/pricing-2">
+                                                        <a>
+                                                            Pricing Packages #2
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="appointment.html">
-                                                        Make an Appointment
-                                                    </a>
+                                                    <Link href="/appointment">
+                                                        <a>
+                                                            Make an Appointment
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="faqs.html">
-                                                        FAQs Page
-                                                    </a>
+                                                    <Link href="/faqs">
+                                                        <a>FAQs Page</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="terms.html">
-                                                        Terms of Use
-                                                    </a>
+                                                    <Link href="/terms">
+                                                        <a>Terms of Use</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                             {/* MEGAMENU LINKS */}
@@ -252,29 +286,29 @@ const Header6 = () => {
                                                     Auxiliary Pages:
                                                 </li>
                                                 <li>
-                                                    <a href="gallery.html">
-                                                        Our Gallery
-                                                    </a>
+                                                    <Link href="/gallery">
+                                                        <a>Our Gallery</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-listing.html">
-                                                        Blog Listing Page
-                                                    </a>
+                                                    <Link href="/blog-listing">
+                                                        <a>Blog Listing Page</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="single-post.html">
-                                                        Single Blog Post
-                                                    </a>
+                                                    <Link href="/single-post">
+                                                        <a>Single Blog Post</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="contacts-1.html">
-                                                        Contact Us #1
-                                                    </a>
+                                                    <Link href="/contacts-1">
+                                                        <a>Contact Us #1</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="contacts-2.html">
-                                                        Contact Us #2
-                                                    </a>
+                                                    <Link href="/contacts-2">
+                                                        <a>Contact Us #2</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>{" "}
@@ -459,13 +493,16 @@ const Header6 = () => {
                                                         />
                                                         {/* Text */}
                                                         <div className="post-summary">
-                                                            <a href="single-post.html">
-                                                                Etiam sapien
-                                                                risus ante
-                                                                auctor tempus
-                                                                accumsan an
-                                                                empor ...
-                                                            </a>
+                                                            <Link href="/single-post">
+                                                                <a>
+                                                                    Etiam sapien
+                                                                    risus ante
+                                                                    auctor
+                                                                    tempus
+                                                                    accumsan an
+                                                                    empor ...
+                                                                </a>
+                                                            </Link>
                                                             <p>43 Comments</p>
                                                         </div>
                                                     </li>
@@ -479,12 +516,16 @@ const Header6 = () => {
                                                         />
                                                         {/* Text */}
                                                         <div className="post-summary">
-                                                            <a href="single-post.html">
-                                                                Blandit tempor a
-                                                                sapien ipsum,
-                                                                porta risus
-                                                                auctor justo ...
-                                                            </a>
+                                                            <Link href="/single-post">
+                                                                <a>
+                                                                    Blandit
+                                                                    tempor a
+                                                                    sapien
+                                                                    ipsum, porta
+                                                                    risus auctor
+                                                                    justo ...
+                                                                </a>
+                                                            </Link>
                                                             <p>38 Comments</p>
                                                         </div>
                                                     </li>
@@ -498,13 +539,17 @@ const Header6 = () => {
                                                         />
                                                         {/* Text */}
                                                         <div className="post-summary">
-                                                            <a href="single-post.html">
-                                                                Cursus risus
-                                                                auctor tempus
-                                                                risus laoreet
-                                                                turpis auctor
-                                                                varius ...
-                                                            </a>
+                                                            <Link href="/single-post">
+                                                                <a>
+                                                                    Cursus risus
+                                                                    auctor
+                                                                    tempus risus
+                                                                    laoreet
+                                                                    turpis
+                                                                    auctor
+                                                                    varius ...
+                                                                </a>
+                                                            </Link>
                                                             <p>29 Comments</p>
                                                         </div>
                                                     </li>
@@ -528,9 +573,9 @@ const Header6 = () => {
                                 className="nl-simple header-btn"
                                 aria-haspopup="true"
                             >
-                                <a href="appointment.html">
-                                    Make an Appointment
-                                </a>
+                                <Link href="/appointment">
+                                    <a>Make an Appointment</a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>{" "}

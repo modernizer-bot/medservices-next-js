@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const DepartmentPage = () => {
@@ -394,12 +395,11 @@ const DepartmentPage = () => {
                                 vitae auctor integer congue magna purus
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover"
-                            >
-                                Learn More
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover">
+                                    Learn More
+                                </a>
+                            </Link>
                         </div>
                         {/* END TEXT WIDGET */}
                         {/* SIDEBAR TABLE */}
@@ -465,12 +465,11 @@ const DepartmentPage = () => {
                                 dolor lacinia cursus nulla vitae massa
                             </p>
                             {/* Button */}
-                            <a
-                                href="about.html"
-                                className="btn btn-blue blue-hover mt-10"
-                            >
-                                View Timetable
-                            </a>
+                            <Link href="/about">
+                                <a className="btn btn-blue blue-hover mt-10">
+                                    View Timetable
+                                </a>
+                            </Link>
                         </div>
                         {/* END SIDEBAR TABLE */}
                         {/* IMAGE WIDGET */}

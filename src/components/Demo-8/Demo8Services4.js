@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo8Services4 = () => {
@@ -42,9 +43,9 @@ const Demo8Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md lime-color">
-                                    <a href="service-1.html">
-                                        Breast Procedures
-                                    </a>
+                                    <Link href="/service-1">
+                                        <a>Breast Procedures</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -69,7 +70,9 @@ const Demo8Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md lime-color">
-                                    <a href="service-1.html">Body Procedures</a>
+                                    <Link href="/service-1">
+                                        <a>Body Procedures</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -94,7 +97,9 @@ const Demo8Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md lime-color">
-                                    <a href="service-1.html">Face Procedures</a>
+                                    <Link href="/service-1">
+                                        <a>Face Procedures</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis
@@ -119,7 +124,9 @@ const Demo8Services4 = () => {
                             {/* Text */}
                             <div className="sbox-4-txt">
                                 <h5 className="h5-md lime-color">
-                                    <a href="service-1.html">Reconstructive</a>
+                                    <Link href="/service-1">
+                                        <a>Reconstructive</a>
+                                    </Link>
                                 </h5>
                                 <p>
                                     Porta semper lacus cursus, feugiat primis

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HomeBanner2 = () => {
@@ -33,13 +34,18 @@ const HomeBanner2 = () => {
                                     in minutes. You are free to move the blocks
                                     between demos
                                 </p>
-                                <a
-                                    className="btn black-hover"
-                                    href="/demo-1"
-                                    target="_blank"
-                                >
-                                    Launch Main Demo
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="btn black-hover"
+                                        href="/demo-1"
+                                        target="_blank"
+                                    >
+                                        Launch Main Demo
+                                    </a>{" "}
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Demo5Contacts1 = () => {
@@ -35,12 +36,17 @@ const Demo5Contacts1 = () => {
                             <p>Phone: +12 9 8765 4321</p>
                             <p>
                                 Email:
-                                <a
-                                    href="mailto:yourdomain@mail.com"
-                                    className="blue-color"
-                                >
-                                    hello@yourdomain.com
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        href="mailto:yourdomain@mail.com"
+                                        className="blue-color"
+                                    >
+                                        hello@yourdomain.com
+                                    </a>{" "}
+                                </Link>
                             </p>
                         </div>
                         {/* Patient Experience */}
@@ -54,12 +60,17 @@ const Demo5Contacts1 = () => {
                             <p>Phone: +12 9 8765 4321</p>
                             <p>
                                 Email:
-                                <a
-                                    href="mailto:yourdomain@mail.com"
-                                    className="blue-color"
-                                >
-                                    hello@yourdomain.com
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        href="mailto:yourdomain@mail.com"
+                                        className="blue-color"
+                                    >
+                                        hello@yourdomain.com
+                                    </a>{" "}
+                                </Link>
                             </p>
                         </div>
                         {/* Working Hours */}
