@@ -43,7 +43,7 @@ const Contacts2 = () => {
                                                 className="blue-color"
                                             >
                                                 hello@yourdomain.com
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </p>
                                 </div>
@@ -69,7 +69,7 @@ const Contacts2 = () => {
                                                 className="blue-color"
                                             >
                                                 hello@yourdomain.com
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </p>
                                 </div>
@@ -95,7 +95,7 @@ const Contacts2 = () => {
                                                 className="blue-color"
                                             >
                                                 hello@yourdomain.com
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </p>
                                 </div>
@@ -121,7 +121,7 @@ const Contacts2 = () => {
                                                 className="blue-color"
                                             >
                                                 hello@yourdomain.com
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </p>
                                 </div>

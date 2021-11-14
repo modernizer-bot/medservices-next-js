@@ -46,7 +46,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -214,7 +214,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -326,7 +326,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -354,7 +354,7 @@ const AllGallery3 = () => {
                                                 title
                                             >
                                                 <i className="fas fa-search-plus" />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>

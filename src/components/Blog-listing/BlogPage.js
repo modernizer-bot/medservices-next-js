@@ -73,7 +73,7 @@ const BlogPage = () => {
                                                     src="images/blog/post-5-img.jpg"
                                                     alt="blog-post-image"
                                                 />
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>

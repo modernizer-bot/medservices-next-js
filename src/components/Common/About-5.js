@@ -60,11 +60,11 @@ const About5 = () => {
                                 />
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END TEXT BLOCK */}
-                </div>{" "}
+                </div>
                 {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

@@ -19,7 +19,7 @@ const Footer1 = () => {
                             />
                             {/* Email */}
                             <p className="foo-email">
-                                E:{" "}
+                                E:
                                 <Link href="#">
                                     <a
                                         onClick={(e) => {
@@ -28,7 +28,7 @@ const Footer1 = () => {
                                         href="mailto:yourdomain@mail.com"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                             {/* Phone */}
@@ -70,7 +70,7 @@ const Footer1 = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END FOOTER INFO */}
                     {/* FOOTER PRODUCTS LINKS */}
                     <div className="col-md-6 col-lg-2 offset-lg-1">
@@ -155,9 +155,9 @@ const Footer1 = () => {
                                 />
                             </form>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END FOOTER NEWSLETTER FORM */}
-                </div>{" "}
+                </div>
                 {/* END FOOTER CONTENT */}
                 {/* FOOTER COPYRIGHT */}
                 <div className="bottom-footer">
@@ -170,7 +170,7 @@ const Footer1 = () => {
                         </div>
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* End container */}
         </footer>
     );

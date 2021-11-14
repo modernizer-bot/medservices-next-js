@@ -39,7 +39,7 @@ const Demo11Banner3 = () => {
                                     className="btn btn-blue blue-hover mt-15"
                                 >
                                     Make An Apointment
-                                </a>{" "}
+                                </a>
                             </Link>
                         </div>
                     </div>

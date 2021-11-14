@@ -42,7 +42,7 @@ const Doctor2Details = () => {
                                             className="blue-color"
                                         >
                                             hello@yourdomain.com
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </h4>
                             </div>
@@ -169,7 +169,7 @@ const Doctor2Details = () => {
                                                         src="images/certificate-1.png"
                                                         alt="certificate-image"
                                                     />
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </div>
                                     </div>
@@ -190,7 +190,7 @@ const Doctor2Details = () => {
                                                         src="images/certificate-2.png"
                                                         alt="certificate-image"
                                                     />
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@ const Doctor2Details = () => {
                                                         src="images/certificate-3.png"
                                                         alt="certificate-image"
                                                     />
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </div>
                                     </div>
@@ -232,7 +232,7 @@ const Doctor2Details = () => {
                                                         src="images/certificate-4.png"
                                                         alt="certificate-image"
                                                     />
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </div>
                                     </div>
@@ -253,7 +253,7 @@ const Doctor2Details = () => {
                                                         src="images/certificate-5.png"
                                                         alt="certificate-image"
                                                     />
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </div>
                                     </div>

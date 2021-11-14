@@ -28,7 +28,6 @@ const singlePost = () => {
                                         </li>
                                         <li className="breadcrumb-item">
                                             <Link href="/blog-listing">
-                                                {" "}
                                                 <a>Our Blog</a>
                                             </Link>
                                         </li>

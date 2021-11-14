@@ -80,7 +80,7 @@ const AllFooter1 = () => {
                                         href="mailto:yourdomain@mail.com"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                             {/* Phone */}

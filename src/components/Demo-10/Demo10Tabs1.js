@@ -30,7 +30,7 @@ const Demo10Tabs1 = () => {
                                             aria-selected="true"
                                         >
                                             Eye Examination
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-2 LINK */}
@@ -49,7 +49,7 @@ const Demo10Tabs1 = () => {
                                             aria-selected="false"
                                         >
                                             Laser Eye Correction
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-3 LINK */}
@@ -68,7 +68,7 @@ const Demo10Tabs1 = () => {
                                             aria-selected="false"
                                         >
                                             Contact Lenses
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-4 LINK */}
@@ -87,7 +87,7 @@ const Demo10Tabs1 = () => {
                                             aria-selected="false"
                                         >
                                             Kids Diagnostic
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>

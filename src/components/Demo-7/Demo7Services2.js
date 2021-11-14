@@ -196,7 +196,6 @@ const Demo7Services2 = () => {
                             data-wow-delay="1s"
                         >
                             <Link href="/department-single">
-                                {" "}
                                 <a>
                                     {/* Icon  */}
                                     <div className="sbox-2-icon">

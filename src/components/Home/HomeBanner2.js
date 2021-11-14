@@ -44,7 +44,7 @@ const HomeBanner2 = () => {
                                         target="_blank"
                                     >
                                         Launch Main Demo
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </div>
                         </div>

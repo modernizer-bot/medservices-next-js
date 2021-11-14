@@ -345,7 +345,6 @@ const SinglePostBlogPage = () => {
                                                 {/* Post Title */}
                                                 <h5 className="h5-sm steelblue-color">
                                                     <Link href="/single-post">
-                                                        {" "}
                                                         <a>
                                                             How Weather Impacts
                                                             Your Health
@@ -410,7 +409,7 @@ const SinglePostBlogPage = () => {
                                                     >
                                                         <i className="fas fa-reply" />
                                                         Reply
-                                                    </a>{" "}
+                                                    </a>
                                                 </Link>
                                             </span>
                                         </div>
@@ -460,7 +459,7 @@ const SinglePostBlogPage = () => {
                                                             >
                                                                 <i className="fas fa-reply" />
                                                                 Reply
-                                                            </a>{" "}
+                                                            </a>
                                                         </Link>
                                                     </span>
                                                 </div>
@@ -510,7 +509,7 @@ const SinglePostBlogPage = () => {
                                                     >
                                                         <i className="fas fa-reply" />
                                                         Reply
-                                                    </a>{" "}
+                                                    </a>
                                                 </Link>
                                             </span>
                                         </div>
@@ -561,7 +560,7 @@ const SinglePostBlogPage = () => {
                                                     >
                                                         <i className="fas fa-reply" />
                                                         Reply
-                                                    </a>{" "}
+                                                    </a>
                                                 </Link>
                                             </span>
                                         </div>

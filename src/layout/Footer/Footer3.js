@@ -72,7 +72,7 @@ const Footer3 = () => {
                             <p>Victoria 3000 Australia</p>
                             {/* Email */}
                             <p className="foo-email mt-20">
-                                E:{" "}
+                                E:
                                 <Link href="#">
                                     <a
                                         onClick={(e) => {
@@ -81,7 +81,7 @@ const Footer3 = () => {
                                         href="mailto:yourdomain@mail.com"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                             {/* Phone */}
@@ -138,7 +138,7 @@ const Footer3 = () => {
                             </ul>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* END FOOTER CONTENT */}
                 {/* FOOTER COPYRIGHT */}
                 <div className="bottom-footer">
@@ -151,7 +151,7 @@ const Footer3 = () => {
                         </div>
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* End container */}
         </footer>
     );

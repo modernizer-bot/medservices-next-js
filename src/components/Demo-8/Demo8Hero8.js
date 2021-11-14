@@ -157,7 +157,6 @@ const Demo8Hero8 = () => {
                                             </div>
                                             {/* Button */}
                                             <Link href="/all-doctors">
-                                                {" "}
                                                 <a className="btn btn-lime black-hover">
                                                     Meet the Doctors
                                                 </a>

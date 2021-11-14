@@ -14,7 +14,7 @@ const Header2 = () => {
                         className="wsanimated-arrow"
                     >
                         <span />
-                    </a>{" "}
+                    </a>
                 </Link>
                 <span className="smllogo">
                     <img
@@ -33,7 +33,7 @@ const Header2 = () => {
                         className="callusbtn"
                     >
                         <i className="fas fa-phone" />
-                    </a>{" "}
+                    </a>
                 </Link>
             </div>
             {/* HEADER STRIP */}
@@ -44,8 +44,8 @@ const Header2 = () => {
                         <div className="address clearfix">
                             <span>
                                 <i className="fas fa-map-marker-alt" />
-                                121 King St, Melbourne, VIC 3000{" "}
-                            </span>{" "}
+                                121 King St, Melbourne, VIC 3000
+                            </span>
                             <Link href="#">
                                 <a
                                     onClick={(e) => {
@@ -56,31 +56,31 @@ const Header2 = () => {
                                 >
                                     <i className="fas fa-phone" />
                                     (800)-569-7890
-                                </a>{" "}
+                                </a>
                             </Link>
                         </div>
                     </div>
                     {/* Social Links */}
                     <div className="headertopright">
                         <a className="googleicon" title="Google" href="#">
-                            <i className="fab fa-google" />{" "}
+                            <i className="fab fa-google" />
                             <span className="mobiletext02">Google</span>
                         </a>
                         <a className="linkedinicon" title="Linkedin" href="#">
-                            <i className="fab fa-linkedin-in" />{" "}
+                            <i className="fab fa-linkedin-in" />
                             <span className="mobiletext02">Linkedin</span>
                         </a>
                         <a className="twittericon" title="Twitter" href="#">
-                            <i className="fab fa-twitter" />{" "}
+                            <i className="fab fa-twitter" />
                             <span className="mobiletext02">Twitter</span>
                         </a>
                         <a className="facebookicon" title="Facebook" href="#">
-                            <i className="fab fa-facebook-f" />{" "}
+                            <i className="fab fa-facebook-f" />
                             <span className="mobiletext02">Facebook</span>
                         </a>
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* END HEADER STRIP */}
             {/* NAVIGATION MENU */}
             <div className="wsmainfull menu clearfix">
@@ -162,7 +162,7 @@ const Header2 = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>{" "}
+                            </li>
                             {/* END DROPDOWN MENU */}
                             {/* PAGES */}
                             <li aria-haspopup="true">
@@ -311,13 +311,13 @@ const Header2 = () => {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </div>{" "}
+                                        </div>
                                         {/* End row */}
-                                    </div>{" "}
+                                    </div>
                                     {/* End container */}
-                                </div>{" "}
+                                </div>
                                 {/* End wsmegamenu */}
-                            </li>{" "}
+                            </li>
                             {/* END PAGES */}
                             {/* HALF MENU */}
                             <li aria-haspopup="true">
@@ -393,7 +393,7 @@ const Header2 = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </li>{" "}
+                            </li>
                             {/* END HALF MENU */}
                             {/* MEGAMENU */}
                             <li aria-haspopup="true">
@@ -473,7 +473,7 @@ const Header2 = () => {
                                                     purus at pretium gravida
                                                     donec
                                                 </p>
-                                            </div>{" "}
+                                            </div>
                                             {/* END MEGAMENU FEATURED NEWS */}
                                             {/* MEGAMENU LATEST NEWS */}
                                             <div className="col-lg-4 col-md-12 col-xs-12">
@@ -554,15 +554,15 @@ const Header2 = () => {
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </div>{" "}
+                                            </div>
                                             {/* END MEGAMENU LATEST NEWS */}
-                                        </div>{" "}
+                                        </div>
                                         {/* End row */}
-                                    </div>{" "}
+                                    </div>
                                     {/* End container */}
-                                </div>{" "}
+                                </div>
                                 {/* End wsmegamenu */}
-                            </li>{" "}
+                            </li>
                             {/* END MEGAMENU */}
                             {/* SIMPLE NAVIGATION LINK */}
                             <li className="nl-simple" aria-haspopup="true">
@@ -578,10 +578,10 @@ const Header2 = () => {
                                 </Link>
                             </li>
                         </ul>
-                    </nav>{" "}
+                    </nav>
                     {/* END MAIN MENU */}
                 </div>
-            </div>{" "}
+            </div>
             {/* END NAVIGATION MENU */}
         </header>
     );

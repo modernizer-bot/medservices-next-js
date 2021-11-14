@@ -30,7 +30,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -222,7 +222,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -286,7 +286,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -318,7 +318,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -350,7 +350,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@ const HomeSelect = () => {
                                                 target="_blank"
                                             >
                                                 Launch Demo
-                                            </a>{" "}
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>

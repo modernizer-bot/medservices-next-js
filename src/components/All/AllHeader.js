@@ -15,7 +15,7 @@ const AllHeader = () => {
                         className="wsanimated-arrow"
                     >
                         <span />
-                    </a>{" "}
+                    </a>
                 </Link>
                 <span className="smllogo">
                     <img
@@ -34,7 +34,7 @@ const AllHeader = () => {
                         className="callusbtn"
                     >
                         <i className="fas fa-phone" />
-                    </a>{" "}
+                    </a>
                 </Link>
             </div>
             {/* HEADER STRIP */}
@@ -57,7 +57,7 @@ const AllHeader = () => {
                                 >
                                     <i className="fas fa-phone" />
                                     (800)-569-7890
-                                </a>{" "}
+                                </a>
                             </Link>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const AllHeader = () => {
                                     height={40}
                                     alt="header-logo"
                                 />
-                            </a>{" "}
+                            </a>
                         </Link>
                     </div>
                     {/* MAIN MENU */}

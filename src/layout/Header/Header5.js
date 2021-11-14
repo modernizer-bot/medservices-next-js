@@ -14,7 +14,7 @@ const Header5 = () => {
                         className="wsanimated-arrow"
                     >
                         <span />
-                    </a>{" "}
+                    </a>
                 </Link>
                 <span className="smllogo">
                     <img
@@ -33,7 +33,7 @@ const Header5 = () => {
                         className="callusbtn"
                     >
                         <i className="fas fa-phone" />
-                    </a>{" "}
+                    </a>
                 </Link>
             </div>
             {/* HEADER WIDGETS */}
@@ -96,11 +96,11 @@ const Header5 = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>{" "}
+                        </div>
                         {/* END WIDGETS */}
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* END HEADER WIDGETS */}
             {/* NAVIGATION MENU */}
             <div className="wsmainfull menu clearfix">
@@ -182,7 +182,7 @@ const Header5 = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>{" "}
+                            </li>
                             {/* END DROPDOWN MENU */}
                             {/* PAGES */}
                             <li aria-haspopup="true">
@@ -331,13 +331,13 @@ const Header5 = () => {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </div>{" "}
+                                        </div>
                                         {/* End row */}
-                                    </div>{" "}
+                                    </div>
                                     {/* End container */}
-                                </div>{" "}
+                                </div>
                                 {/* End wsmegamenu */}
-                            </li>{" "}
+                            </li>
                             {/* END PAGES */}
                             {/* HALF MENU */}
                             <li aria-haspopup="true">
@@ -413,7 +413,7 @@ const Header5 = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </li>{" "}
+                            </li>
                             {/* END HALF MENU */}
                             {/* MEGAMENU */}
                             <li aria-haspopup="true">
@@ -493,7 +493,7 @@ const Header5 = () => {
                                                     purus at pretium gravida
                                                     donec
                                                 </p>
-                                            </div>{" "}
+                                            </div>
                                             {/* END MEGAMENU FEATURED NEWS */}
                                             {/* MEGAMENU LATEST NEWS */}
                                             <div className="col-lg-4 col-md-12 col-xs-12">
@@ -574,15 +574,15 @@ const Header5 = () => {
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </div>{" "}
+                                            </div>
                                             {/* END MEGAMENU LATEST NEWS */}
-                                        </div>{" "}
+                                        </div>
                                         {/* End row */}
-                                    </div>{" "}
+                                    </div>
                                     {/* End container */}
-                                </div>{" "}
+                                </div>
                                 {/* End wsmegamenu */}
-                            </li>{" "}
+                            </li>
                             {/* END MEGAMENU */}
                             {/* SIMPLE NAVIGATION LINK */}
                             <li className="nl-simple" aria-haspopup="true">
@@ -598,7 +598,7 @@ const Header5 = () => {
                                 </a>
                             </li>
                         </ul>
-                    </nav>{" "}
+                    </nav>
                     {/* END MAIN MENU */}
                     {/* NAVIGATION MENU BUTTON */}
                     <div className="header-button">
@@ -607,7 +607,7 @@ const Header5 = () => {
                         </span>
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* END NAVIGATION MENU */}
         </header>
     );

@@ -33,7 +33,7 @@ const AllServicesTabs2 = () => {
                                             aria-selected="true"
                                         >
                                             Routine Medical Care
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-2 LINK */}
@@ -52,7 +52,7 @@ const AllServicesTabs2 = () => {
                                             aria-selected="false"
                                         >
                                             Full Blood Picture
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-3 LINK */}
@@ -71,7 +71,7 @@ const AllServicesTabs2 = () => {
                                             aria-selected="false"
                                         >
                                             MRI Diagnostic
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-4 LINK */}
@@ -90,7 +90,7 @@ const AllServicesTabs2 = () => {
                                             aria-selected="false"
                                         >
                                             X-Ray Diagnostic
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>

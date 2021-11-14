@@ -42,11 +42,11 @@ const allDepartments = () => {
                                 </h4>
                             </div>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End container */}
-            </div>{" "}
+            </div>
             {/* END BREADCRUMB */}
             {/* ABOUT-5
 			============================================= */}

@@ -18,7 +18,7 @@ const HomeFooter = () => {
                                     title="Top WordPress & HTML Themes"
                                 >
                                     Jthemes
-                                </a>{" "}
+                                </a>
                             </Link>
                         </p>
                         <p>

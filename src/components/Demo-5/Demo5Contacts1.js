@@ -45,7 +45,7 @@ const Demo5Contacts1 = () => {
                                         className="blue-color"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                         </div>
@@ -69,7 +69,7 @@ const Demo5Contacts1 = () => {
                                         className="blue-color"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                         </div>

@@ -39,7 +39,7 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #1 */}
                             {/* SERVICE BOX #2 */}
                             <div className="col-md-6">
@@ -68,7 +68,7 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #2 */}
                             {/* SERVICE BOX #3 */}
                             <div className="col-md-6">
@@ -97,7 +97,7 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #3*/}
                             {/* SERVICE BOX #4 */}
                             <div className="col-md-6">
@@ -126,7 +126,7 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #4 */}
                             {/* SERVICE BOX #5 */}
                             <div className="col-md-6">
@@ -155,7 +155,7 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #5 */}
                             {/* SERVICE BOX #6 */}
                             <div className="col-md-6">
@@ -184,10 +184,10 @@ const Services7 = () => {
                                         </a>
                                     </Link>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* END SERVICE BOX #6 */}
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END SERVICE BOXES */}
                     {/* INFO TABLE */}
                     <div className="col-lg-4">
@@ -239,11 +239,11 @@ const Services7 = () => {
                                 ultrice ligula at risus auctor
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END INFO TABLE */}
-                </div>{" "}
+                </div>
                 {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

@@ -82,7 +82,7 @@ const AllAbout1 = () => {
                                     className="btn btn-sm btn-tra-white mt-25"
                                 >
                                     Make an Apointment
-                                </a>{" "}
+                                </a>
                             </Link>
                         </div>
                     </div>

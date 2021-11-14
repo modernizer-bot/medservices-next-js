@@ -34,7 +34,7 @@ const Banner5 = () => {
                         </div>
                     </div>
                 </div>
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

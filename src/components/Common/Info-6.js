@@ -65,9 +65,9 @@ const Info6 = () => {
                             </Link>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End row */}
-            </div>{" "}
+            </div>
             {/* END TEXT BLOCK */}
             {/* INFO-6 IMAGE */}
             <div className="info-6-img text-center" />

@@ -156,9 +156,9 @@ const AllServices3 = () => {
                             </div>
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* END SERVICES CONTENT */}
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

@@ -30,7 +30,7 @@ const Demo1Hero1 = () => {
                                 </a>
                             </Link>
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END HERO TEXT */}
                     {/* HERO IMAGE */}
                     <div className="col-md-4 col-lg-5 col-xl-6">
@@ -42,9 +42,9 @@ const Demo1Hero1 = () => {
                             />
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

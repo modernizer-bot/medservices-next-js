@@ -181,10 +181,9 @@ const Demo9Hero9 = () => {
                                 className="carousel-control-prev-icon"
                                 aria-hidden="true"
                             />
-                        </a>{" "}
+                        </a>
                     </Link>
                     <Link href="#">
-                        {" "}
                         <a
                             onClick={(e) => {
                                 e.preventDefault();
@@ -198,7 +197,7 @@ const Demo9Hero9 = () => {
                                 className="carousel-control-next-icon"
                                 aria-hidden="true"
                             />
-                        </a>{" "}
+                        </a>
                     </Link>
                 </div>
             </div>

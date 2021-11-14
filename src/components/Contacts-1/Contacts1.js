@@ -42,7 +42,7 @@ const Contacts1 = () => {
                                         className="blue-color"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                         </div>
@@ -66,7 +66,7 @@ const Contacts1 = () => {
                                         className="blue-color"
                                     >
                                         hello@yourdomain.com
-                                    </a>{" "}
+                                    </a>
                                 </Link>
                             </p>
                         </div>

@@ -33,7 +33,7 @@ const Demo8Video2 = () => {
                                         src="images/video-3.png"
                                         alt="video-photo"
                                     />
-                                </a>{" "}
+                                </a>
                             </Link>
                         </div>
                     </div>

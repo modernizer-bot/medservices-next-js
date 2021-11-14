@@ -92,10 +92,10 @@ const Info2 = () => {
                                         </p>
                                     </div>
                                 </div>
-                            </div>{" "}
+                            </div>
                             {/* End Options List */}
                         </div>
-                    </div>{" "}
+                    </div>
                     {/* END TEXT BLOCK */}
                     {/* IMAGE BLOCK */}
                     <div className="col-lg-6">
@@ -110,9 +110,9 @@ const Info2 = () => {
                             />
                         </div>
                     </div>
-                </div>{" "}
+                </div>
                 {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
         </section>
     );

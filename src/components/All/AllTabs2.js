@@ -34,7 +34,7 @@ const AllTabs2 = () => {
                                         >
                                             <span className="flaticon-083-stethoscope" />
                                             Pediatrics
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-2 LINK */}
@@ -54,7 +54,7 @@ const AllTabs2 = () => {
                                         >
                                             <span className="flaticon-005-blood-donation-3" />
                                             Full Blood Picture
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-3 LINK */}
@@ -74,7 +74,7 @@ const AllTabs2 = () => {
                                         >
                                             <span className="flaticon-031-scanner" />
                                             MRI Diagnostic
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                                 {/* TAB-4 LINK */}
@@ -94,7 +94,7 @@ const AllTabs2 = () => {
                                         >
                                             <span className="flaticon-048-lungs" />
                                             X-Ray Diagnostic
-                                        </a>{" "}
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>

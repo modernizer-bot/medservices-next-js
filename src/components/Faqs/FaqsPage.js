@@ -53,7 +53,7 @@ const FaqsPage = () => {
                                                 >
                                                     Is porta semper MedService
                                                     primis?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -105,7 +105,7 @@ const FaqsPage = () => {
                                                 >
                                                     How feugiat primis ultrice
                                                     in ligula?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -157,7 +157,7 @@ const FaqsPage = () => {
                                                 >
                                                     Did donec pretium and
                                                     MedService porta?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -233,7 +233,7 @@ const FaqsPage = () => {
                                                 >
                                                     What is metus mollis
                                                     faucibus?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -289,7 +289,7 @@ const FaqsPage = () => {
                                                 >
                                                     How much congue magna nihil
                                                     impedit ligula risus?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -340,7 +340,7 @@ const FaqsPage = () => {
                                                 >
                                                     What I congue magna nihil
                                                     convallis porta?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -390,7 +390,7 @@ const FaqsPage = () => {
                                                 >
                                                     Is there a aliquet elementum
                                                     massa?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -455,7 +455,7 @@ const FaqsPage = () => {
                                                     Can I auctor eros dolor
                                                     luctus odio placerat massa
                                                     magna?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -507,7 +507,7 @@ const FaqsPage = () => {
                                                 >
                                                     Do you have vehicula magna
                                                     luctus tempor?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -601,7 +601,7 @@ const FaqsPage = () => {
                                                 >
                                                     I have tempor sapien
                                                     gravida?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -655,7 +655,7 @@ const FaqsPage = () => {
                                                 >
                                                     I want molestie bibendum
                                                     quis, aliquet?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
@@ -718,7 +718,7 @@ const FaqsPage = () => {
                                                 >
                                                     Can I tincidunt tincidunt
                                                     massa, et porttitor?
-                                                </a>{" "}
+                                                </a>
                                             </Link>
                                         </h5>
                                     </div>
